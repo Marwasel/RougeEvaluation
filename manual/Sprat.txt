@@ -1,17 +1,16 @@
-﻿Security and Privacy Requirements Analysis Tool (SPRAT)
+﻿
+Security and Privacy Requirements Analysis Tool (SPRAT) Description
 SPRAT is a tool to systematically manage the extraction, specification, analysis and reconciliation of goals and scenarios from privacy/security policies
 
-
 User access module:
-FR-UA 1
+
+Functional requirements
 Administrators will have the highest level of privileges, like the ability to:
 Create user groups
 Create project managers, analysts and guests
 Reset passwords
 Disable access for old users while still preserving their data
 
-
-FR-UA 2
 Project managers will have privileges to:
 Add/remove privacy policies from the repository
 Create/add a new domain of privacy policies
@@ -20,8 +19,6 @@ Set restrictions on certain information access for guests.
 Export data from a project to an XML file
 Save current version of the repository for analysis use.
 
-
-FR-UA 3
 An analysis is able to:
 Select a privacy policy assigned
 Add, delete and update goals
@@ -31,296 +28,228 @@ Add, delete and update requirements
 Add, delete and update access control policies
 View access control policies
 
-
-FR-UA 4
 A guest  is able to:
 View certain information in the repository accessed with a given permission to a certain privacy policy.
 
-
-NFR-UAM 1
-The system should support access control based on user type with different privilege levels
-
-
-NFR-UAM 2
-Passwords must be securely stored in the database.
-
-
-NFR-UAM 3
-Users should be able to securely log to system.
 Goal Specification and Management Module
-
 
 FR-GSM 1
 The system will allow analysts to enter a new goal into the system with the necessary elements(like ID, description, etc)
 
-
 FR-GSM 2
 The system shall provide templates for consistently capturing information about goals, scenarios, P3P statements, EPAL rules, and access control policies.
-
 
 FR-GSM 3
 The system will allow analysts to classify goals into categories
 
-
 FR-GSM 4
 The system will allow analysts to choose multiple subject classifications for each goal.
-
 
 FR-GSM 5
 The system shall allow project managers to add a new classification type of goals.
 
-
 FR-GSM 6
 The system shall allow analysts to request new goal classification types that the project manager can create
-
 
 FR-GSM 7
 The system will allow analysts to edit an existing goal
 
-
 FR-GSM 8
 The system shall allow analysts to delete existing goal
-
 
 FR-GSM 9
 The system shall automatically propagate changes to associated policies when goal is deleted/replaced.
 
-
 FR-GSM 10
 Specification: The system will allow analysts and guests to choose a goal and then the system will display all its policies.
 
-
 FR-GSM 11
 The system will display the number of occurrences of a goal within a policy chosen by analysts or guests.
-
 
 FR-GSM 12
 The system will allow analysts and guests to choose a policy and view the number of different goals that occur in that policy.
 FR-GSM 13
 The system will allow analysts and guests to choose a goal and  view the context of the selected goal.
 
-
 FR-GSM 14
 The system shall allow analysts to create/update goal keyword definitions and allow guests to view them.
-
 
 FR-GSM 15
 Goal keyword definitions can be locked/unlocked by the project manager or creator.
 
-
 FR-GSM 16
 The system shall allow analysts and guests to search for lists of goals matching specified attributes like source, actor, etc, to analyze impacts of changes and identify goals needing further elaboration.
-
 
 FR-GSM 17
 The system shall allow analysts to view full details of a goal returned by a query.
 
-
 FR-GSM 18
 The system shall provide a template to express goals in BNF grammar.
-
 
 FR-GSM 19
 The system shall identify and resolve conflicts between requirements and privacy policies.
 
-
 FR- GSM 20
 The system shall allow analysts to view scenarios associated with individual scenarios.
-
 
 FR- GSM 21
 The system shall provide a dedicated section for P3P.
 
-
 FR- GSM 22
 The system shall provide a dedicated section for EPAL.
-
-
 
 
 Analysis Document Management Module
 FR-ADM 1
 The system shall allow project managers to add analysis documents with domain assigned to it.
 
-
 FR-ADM 2
 The system will allow the project manager to edit the documents domain(ex. Domain name)
-
 
 FR-ADM 3
 The system will allow the project manager to delete documents domain.
 FR-ADM 4
 The system shall allow project managers to create document types(ex. policy documents).
 
-
 FR-ADM 5
 The system will allow viewing document names and document links within a domain,  in an alphabetical order.
 
-
 FR-ADM 6
 The system shall allow project managers to create domains and assign existing documents to it.
-
 
 FR-ADM 7
 The system shall support separate goal classification by multiple analysts and automatically check differences upon project managers request.
 Constraint: To prevent bias, analysts' classifications will be withheld until an analyst completes their own.
 
-
 Flesch Readability Module
-
 
 FR-FRE 1
 The system shall provide a way to calculate the Flesch Readability for textual documents, where a document link and corresponding FRES and FGL will be provided.
 
-
 Scenario Specification and Management
-
 
 FR- SSM 1
 The system shall allow analysts to add a scenario with the necessary elements for each scenario(name, sources, event, goals, requirements, etc)
 
-
 FR- SSM 2
 The system shall allow analysts to edit/modify a scenario within a project.
-
 
 FR- SSM 3
 The system shall provide the ability to delete a scenario from a project but not from the system.
 
-
 FR- SSM 4
 The system shall allow analysts to reuse other scenarios when specifying a new scenario.
-
 
 FR- SSM 5
 The system shall allow viewing goals associated with a scenario, and will indicate the scenarios that are shared among goals.
 
-
 FR- SSM 6
 The system shall allow analysts to view the elements of any scenario in the assigned project.
-
 
 FR-SSM 7
 The system shall allow analysts to generate a list of all scenarios sharing the same attribute, allowing analysts to determine impacts of change in conditions.
 
-
 Requirements Specification Module
-
 
 FR-RS 1
 The system will allow analysts to specify requirements.
 
-
 FR-RS 2
 The system will allow analysts to add requirements including goals and constraints.
-
 
 FR-RS 3
 The system will allow analysts to delete requirements.
 
-
 FR-RS 4
 The system will allow analysts to edit requirements.
-
 
 FR-RS 5
 The system will provide a template to specify requirements.
 
-
 Legal Compliance Module
-
 
 FR-LC 1
 The system will provide a trial version of the tool allowing people to try the system.
-
 
 Requirements-level Access Control Analysis Framework Module
 Data Analysis
 FR-RACAF 1
 The system shall allow analysts to add new objects.
 
-
 FR-RACAF 2
 The system shall allow analysts to associate privacy preferences with objects.
-
 
 FR-RACAF 3
 The system shall allow analysts to specify hierarchies to organize data and its types.
 
-
 FR-RACAF 4
 The system shall allow analysts to view data hierarchies graphically.
-
 
 Task Analysis
 FR-RACAF 5
 The system shall allow analysts to specify access control elements.
 
-
 FR-RACAF 6
 The system shall allow analysts to view scenario elements and edit access control rules at the same time.
-
 
 Organizational Structure Analysis
 FR-RACAF 7
 The system shall allow analysts to specify business and organizational structures.
 
-
 FR-RACAF 8
 The system shall allow analysts to specify organization boundaries
-
 
 FR-RACAF 9
 The system shall allow analysts to specify relationships among actors.
 
-
 FR-RACAF 10
 The system shall allow analysts to specify roles.
 
-
 FR-RACAF 11
 The system shall allow project managers to delegate their responsibilities to analysts for a specific timeframe.
-
 
 Information Analysis
 FR-RACAF 12
 The system shall allow analysts to graphically view allowable data flows within and across organizations given a set of access control policies.
 
-
 Access Control Policy Specifications
 FR-RACAF 13
 The system shall allow analysts to invoke the ponder policy editor by specifying access control policies.
-
 
 Formal Verification
 FR-RACAF 14
 The system shall provide partial support for translating Ponder policy into Alloy specifications for security verification.
 
-
 P3P: P3P Module
 FR-P3P 1
 The system shall extract data usage goals from a P3P privacy policy according to P3P standard.
 
-
 FR-P3P 2
 The system shall provide a way to extract goals data-usage information based on the user's privacy preferences as per the P3P standard.
-
 
 FR-P3P 3
 The system shall provide a way to capture  mined goals information from the P3P policy into a database.
 
-
 FR-P3P 4
 The system shall provide a way to concisely capture goals from the user's privacy preferences into a database.
-
 
 FR-P3P 5
 The system will provide users an unambiguous way to evaluate information extracted from the privacy policy against the information extracted from the user’s privacy preferences.
 Detecting conflicts requires user intervention or indicating accept/reject.
 
 
-System Requirements
+Non-Functional Requirements 
+NFR-UAM 1
+The system should support access control based on user type with different privilege levels
 
+NFR-UAM 2
+Passwords must be securely stored in the database.
+
+NFR-UAM 3
+Users should be able to securely log to system.
+
+
+System Requirements
 
 SR 1
 The system shall generate an access log for every add, delete and edit action in the system, for future tracking.
