@@ -1,0 +1,20 @@
+Title: Security and Privacy Requirements Analysis Tool (SPRAT) Software Requirements Specification
+
+Summary:
+The document titled "2004 - sprat.pdf" is a Software Requirements Specification for the Security and Privacy Requirements Analysis Tool (SPRAT). It provides an overview of the tool's purpose, modules breakdown, module requirements, system requirements, and other relevant information.
+
+Introduction:
+The document highlights the importance of aligning privacy and security policies with web-based systems' requirements. It emphasizes the need for high-level goals and scenarios to ensure completeness, readability, and conflict detection. The SPRAT tool aims to assist analysts in scenario and goal mining, reconciliation, and management processes.
+
+Module Breakdown:
+The SPRAT consists of six main modules: User Access, Goal Specification and Management, Policy Management, Flesch Readability Index, Scenario Specification and Management, and Requirements Specification. Each module serves a specific purpose within the tool.
+
+Module Requirements:
+This section outlines the services provided by each module. It includes functional requirements, their definitions, specifications, origins, and priorities. The User Access Module defines access levels and permissions for administrators, project managers, analysts, and guests. Other modules have their specific requirements related to their functionalities.
+
+System Requirements:
+The system requirements section specifies the constraints under which the SPRAT tool must operate. It covers aspects such as accuracy, performance, security, and privacy to ensure the protection of sensitive data.
+
+Requirements Traceability Matrix and Revision History:
+The document includes a Requirements Traceability Matrix that graphically displays the dependencies among the requirements. Additionally, there is a section outlining the revision history, documenting the version, responsible individuals, modification dates, and changes made to the document.
+

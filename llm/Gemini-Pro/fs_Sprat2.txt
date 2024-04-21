@@ -1,0 +1,24 @@
+
+Introduction: This section provides an overview of SPRAT, its purpose, and its potential benefits. It also briefly discusses the importance of goals and scenarios in the requirements engineering process.
+Module Breakdown: This section describes the six main modules that make up SPRAT. These modules are:
+User Access Module (UAM)
+Goal Specification and Management Module (GSM)
+Policy Management Module
+Flesch Readability Index Module (FRE)
+Scenario Specification and Management Module (SSM)
+Requirements Specification Module (RS)
+Legal Compliance Module (LC)
+Requirements-level Access Control Analysis Framework Module (RACAF)
+Module Requirements: This section outlines the specific requirements for each module, including functional requirements, non-functional requirements, and security and privacy requirements.
+System Requirements: This section lists the overall system requirements for SPRAT.
+Requirements Traceability Matrix: This section provides a graphical representation of the relationships between different requirements.
+Document Revision History: This section tracks the changes made to the document over time.
+Appendix: This section contains additional information, such as a glossary of terms, acknowledgements, and references.
+Overall, this document provides a comprehensive overview of the requirements for SPRAT. It is a valuable resource for anyone involved in the development or use of this tool.
+
+Key Points
+SPRAT is a tool designed to assist analysts in managing privacy policies.
+SPRAT is comprised of six main modules.
+Each module has specific functional, non-functional, and security/privacy requirements.
+The document provides a detailed overview of all requirements for SPRAT.
+This document is a valuable resource for anyone involved in the development or use of SPRAT.

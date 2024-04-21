@@ -1,0 +1,42 @@
+Product Description:
+DigitalHome is a smart home management system that allows home residents to easily manage their daily lives by providing a lifestyle that brings together security, environmental and energy management, entertainment, and communications. The system consists of household devices, sensors, and controllers for the devices, communication links between the components, and a computer system that manages the components.
+
+Functional Requirements:
+
+General Requirements:
+The system shall provide a user-friendly interface for managing household devices, sensors, and controllers.
+The system shall allow users to monitor and control the devices, sensors, and controllers remotely.
+The system shall provide real-time monitoring and control of the devices, sensors, and controllers.
+Thermostat Requirements:
+The system shall provide a thermostat function that allows users to set temperature preferences and schedule temperature changes.
+The system shall allow users to adjust the temperature remotely.
+Humidistat Requirements:
+The system shall provide a humidistat function that allows users to set humidity preferences and schedule humidity changes.
+The system shall allow users to adjust the humidity remotely.
+Security System Requirements:
+The system shall provide a security system that allows users to monitor and control security devices, such as cameras and door sensors.
+The system shall allow users to view live video feed from security cameras.
+Appliance Management Requirements:
+The system shall provide an appliance management function that allows users to monitor and control appliances, such as lights and TVs.
+The system shall allow users to schedule appliance on/off times.
+Non-Functional Requirements/Constraints:
+
+Performance Requirements:
+The system shall be able to handle a minimum of 10 concurrent users.
+The system shall be able to process at least 1000 sensor readings per minute.
+The system shall respond to user requests within 2 seconds.
+Reliability Requirements:
+The system shall be available at least 95% of the time.
+The system shall recover from failures within 5 minutes.
+Safety Requirements:
+The system shall not pose a hazard to the users or the environment.
+The system shall prevent accidents and misuse.
+Maintenance Requirements:
+The system shall be designed to allow for easy maintenance and upgrades.
+The system shall provide clear documentation for maintenance and upgrades.
+Cost constraints:
+The system shall employ widely used, accepted, and available hardware and software technology and standards.
+The system shall minimize the cost of DigitalHome elements.
+Time constraints:
+The system shall be developed within a 12-month timeframe.
+The development team shall consist of five engineers.

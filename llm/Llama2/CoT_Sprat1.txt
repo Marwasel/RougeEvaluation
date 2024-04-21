@@ -1,0 +1,22 @@
+Product Description:
+SPRAT is a web-based tool that provides a structured approach to analyzing and managing security and privacy requirements for web-based systems. It helps organizations to identify and address security and privacy risks early in the development process, ensuring that the system is secure and compliant with relevant regulations.
+
+Functional Requirements:
+
+User Access Module: The system shall support three access levels (administrator, project manager, and analyst) with corresponding permissions and restrictions.
+Goal Specification and Management Module: The system shall allow users to create, update, and delete goals and their associated requirements.
+Policy Management Module: The system shall allow users to create, update, and delete policies and their associated requirements.
+Flesch Readability Index Module: The system shall calculate the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module: The system shall allow users to create, update, and delete scenarios and their associated requirements.
+Requirements Specification Module: The system shall allow users to create, update, and delete requirements and their associated scenarios.
+Non-Functional Requirements/Constraints:
+
+Security: The system must ensure the confidentiality, integrity, and availability of sensitive data.
+Privacy: The system must comply with relevant regulations, such as the GDPR and CCPA, and maintain appropriate documentation of compliance.
+Scalability: The system must be able to handle a large number of users and data without compromising performance.
+Performance: The system must respond quickly to user requests and maintain a high level of system uptime.
+Accessibility: The system must be accessible to users with disabilities and provide appropriate accommodations.
+Compatibility: The system must be compatible with various devices and platforms, including desktop and mobile devices.
+Usability: The system must be easy to use and provide an intuitive user interface.
+Maintainability: The system must be easy to maintain and update, with minimal downtime.
+Data backup and recovery: The system must provide regular data backups and ensure that data can be recovered in the event of a system failure or data loss.

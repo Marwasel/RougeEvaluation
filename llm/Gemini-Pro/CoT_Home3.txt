@@ -1,0 +1,46 @@
+Product Description
+The DigitalHome (DH) system is a prototype "Smart House" system that allows users to manage their home environment and devices remotely via a web interface. The system includes:
+
+Temperature control: Programmable thermostats allow users to set and monitor temperature in different rooms, with individual or collective control and scheduling options.
+Humidity control: Programmable humidistats allow users to set and monitor humidity levels in different rooms, with individual or collective control and scheduling options.
+Security system: Contact sensors and alarms provide security monitoring and alerts for potential breaches.
+Appliance management: Users can remotely control power switches for small appliances and lighting units, turning them on or off as desired.
+Planning and reporting: The DH Planner allows users to set preset home parameters for specific time periods, while the system provides monthly reports on temperature, humidity, security breaches, and periods of system inactivity.
+Functional Requirements
+Users can monitor and control temperature, humidity, security, and appliances from any location using a web-ready device.
+The system communicates through a home web server and a master control device (DH Gateway Device) that connects to the home's broadband internet and uses wireless communication to interact with home devices.
+Wireless communication allows for sensor readings and controller values to be sent and received.
+The system supports Fahrenheit and Celsius temperature values.
+The system adheres to ASHRAE standards for centralized HVAC systems.
+Users can manage up to 50 door and window contact sensors and multiple security alarms.
+Users can manage up to 100 power switches for small appliances and lighting units.
+The system provides information about the state of power switches and allows users to change their state.
+Non-Functional Requirements and Constraints
+Performance:
+
+Environmental conditions are updated at least every two seconds.
+Sensors have a minimum data acquisition rate of 10 Hz.
+Environmental sensors and controllers must be within 1000 feet of the master control device.
+Reliability:
+
+The system must have high reliability with no more than 1 failure per 10,000 hours of operation.
+The system incorporates backup and recovery mechanisms for system data.
+Exception handling provides clear messages to users in case of errors or exceptional conditions.
+Safety:
+
+High system reliability is crucial to ensure no system failures occur while carrying out user requests, which could affect the safety of home dwellers.
+Security:
+
+User accounts require authentication and information encryption through a reliable security technology like Transport Layer Security.
+Login requires an account name and password.
+Maintenance:
+
+Development methods and techniques support system maintenance, including documentation and adherence to standards.
+Prototype modules and components are designed for potential incorporation in a commercial version of the DigitalHome System.
+Business Rules:
+
+All system documents must be up-to-date, use the Homeowner document format, and reside in the HomeOwner Document Archive at project completion.
+Object-oriented development using UML 2.0 is the preferred method for HomeOwner product software development.
+User Documentation:
+
+Online documentation includes FAQs, information on parameter settings and sensor readings, and instructions for using the DH Planner.

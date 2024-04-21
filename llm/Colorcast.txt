@@ -1,39 +1,54 @@
-Project Summary: ColorKast
-Description:
+Product Description:
 
-ColorKast is a web-based application designed to help ABC Paint customers transition to a new paint numbering scheme and product line. It provides users with features such as:
+ColorKast is a web-based application designed to assist ABC Paint customers in transitioning to a new paint numbering scheme and product line. It offers a user-friendly interface with the following key features:
 
-Graphical color chooser: Allows intuitive color selection using a pointing device.
-Color translator: Converts old paint scheme numbers to new ones.
-Closest colors: Finds colors similar to a given one.
-Color search engine: Searches for colors based on name, number, or value.
-User color palette: Stores recently searched colors and uploaded images.
-Administrative interface: Allows authorized users to manage paint information and user access.
+Graphical Color Chooser: Intuitive color selection using a pointing device.
+Color Translator: Converts paint numbers from the old scheme to the new scheme.
+Closest Colors: Finds a specified number of colors closest to a given color.
+Color Search Engine: Searches for colors based on name, number, or color value.
+User Color Palette: Stores a list of recently searched colors and uploaded images for matching.
+Administrative Interface: Allows authorized users to update, add, and delete paint information and manage user access.
 Functional Requirements:
 
-The application must be accessible via a web browser.
-It should be compatible with most operating systems and require minimal hardware resources.
-The color chooser requires a pointing device.
-The application should be easy to use and navigate.
-It should provide clear error messages and user assistance.
-The administrative interface should allow authorized users to manage paint information and user access.
-Non-Functional Requirements:
+All features operate independently as modular components.
+The graphical color chooser requires a pointing device.
+The color translator and closest colors features require the color search engine.
+The color search engine requires the color space and paint information databases.
+The user color palette requires the color search engine and color sample matcher (optional).
+The administrative interface requires the color space and paint information databases.
+The color sample matcher (optional) requires the color search engine and a pointing device.
+Non-Functional Requirements/Constraints:
 
-The application should be highly performant, with sub-second response times for color searches and updates.
-It should be secure and protect user data.
-The application should be adaptable, robust, and reusable.
-It should be compatible with different display devices and color calibration settings.
-Constraints:
-
-The application must be web-based.
-It should be usable with keyboard input only.
-The application should use industry standard protocols and technologies.
-Assumptions:
-
-The application will be used in an environment that meets the specified hardware and software requirements.
-The application will be used for the duration of the software and hardware installation required for its operation.
-Finding the nearest colors in the RGB color space will provide acceptable results for the purpose of color search.
-Dependencies:
-
-The application depends on third-party databases for paint information and color search functionality.
-It requires a reliable internet connection for communication with the server.
+Server-side color searches must be processed in under one second.
+Real-time updates of paint and collection information, with processing time varying based on the amount of data involved.
+ColorKast makes no guarantees about internet speed, completeness, or timeliness of service.
+Application performance will vary depending on the client's internet access speed and type.
+Server processing time will be displayed to the user, excluding network transit time.
+No safety concerns identified, but a legal review is recommended before public use or business-wide rollout.
+Adherence to state and federal regulations regarding keyboard and pointing device use is recommended, as repetitive use can lead to injuries.
+ColorKast is not responsible for injuries or damages resulting from device use.
+Public information (paint names and color values) will not be secured.
+User-specific color palettes and access permissions will be private.
+Administrative access permissions will be secure.
+Security implementations must meet industry standards.
+Modular design for adaptability, robustness, and reusability.
+Color accuracy depends on the client computer's display calibration.
+Display calibration is not included in the current specification but may be considered as an extension.
+Default user privileges only, with limited administrative users managing paint data updates.
+Administrative users can grant access up to their own level only.
+Web-based client application.
+Keyboard-only functionality for limited access users.
+Automatic error reporting to ColorKast without affecting user experience.
+Online help and tutorial available for users.
+Application will be used for the duration of hardware and software installation and use.
+Nearest color search in the RGB color space is assumed to be sufficiently accurate.
+Application relies on third-party databases for paint information and color search.
+Database response time must be under one second.
+Legacy monochrome displays are not supported.
+Minimal support for client computers without a pointing device.
+Display device must be capable of displaying 16.7 million colors or greater.
+Color accuracy depends on proper display calibration.
+Hardware pointing device required for color selection and graphical color chooser.
+Application requires HTTP 1.0 or 1.1 for communication with client computers.
+Network connection to the internet is required for communication.
+User color palette data is private but not secure, and is removed from the server after 30 days.

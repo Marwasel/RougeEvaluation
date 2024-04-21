@@ -1,0 +1,99 @@
+Functional Requirements:
+The DigitalHome system offers a wide range of functionalities to manage and control various aspects of a home environment. These functionalities can be broadly categorized into five main areas:
+
+1. Temperature Control:
+
+Users can monitor and adjust the temperature in their homes remotely using web-ready devices like computers, cell phones, or PDAs.
+The system allows for individual or collective control of up to eight thermostats placed in different rooms, enabling customized temperature settings for different areas.
+Each thermostat can be programmed with up to 24 one-hour settings per day for every day of the week, providing flexibility and automation.
+The system supports both Fahrenheit and Celsius temperature scales for user convenience.
+Compatibility with various HVAC systems (gas, oil, electricity, solar, or combinations) ensures wide applicability.
+Adherence to ASHRAE standards ensures safety and efficiency in temperature control.
+2. Humidity Control:
+
+Similar to temperature control, users can monitor and adjust humidity levels in their homes remotely using web-ready devices.
+The system allows for individual control of up to eight humidistats placed in different rooms, enabling customized humidity settings for different areas.
+Each humidistat can be programmed with up to 24 one-hour settings per day for every day of the week, providing flexibility and automation.
+The system supports setting humidity levels between 30% and 60%, with 1% increments, allowing for precise control.
+Wireless communication with the humidistats ensures a clean and efficient setup.
+3. Security System:
+
+The DigitalHome security system consists of contact sensors and alarms to protect the home from unauthorized access.
+The system can manage up to 50 door and window contact sensors, providing comprehensive coverage of entry points.
+Both light and sound alarms are available, offering multiple layers of security.
+The system activates the alarms when a security breach occurs, such as a contact sensor being set to "OPEN."
+4. Appliance Management:
+
+The DigitalHome system allows users to manage and control small appliances and lighting units in their homes remotely.
+The system can manage up to 100 power switches, enabling control over a wide range of appliances.
+Users can receive information about the state of a power switch (ON or OFF), providing real-time awareness of appliance status.
+The system can change the state of a power switch, allowing users to turn appliances on or off remotely.
+Manual overrides are available, allowing users to temporarily adjust appliance states as needed.
+5. Planning and Reporting:
+
+The DigitalHome Planner provides users with the ability to set various preset home parameters for specific time periods.
+Users can create or modify monthly plans that specify temperature, humidity, contact sensor, and power switch settings for each day and up to four daily time periods.
+Planned parameter values can be overridden through the website or manually on household devices, offering flexibility and control.
+The system generates monthly reports on home management and control, providing insights into environmental conditions, security breaches, and system operation.
+These reports include daily average, maximum, and minimum values for temperature and humidity, as well as timestamps for security breaches and system downtime.
+Non-Functional Requirements:
+The DigitalHome system is designed to meet specific non-functional requirements that ensure its performance, reliability, safety, security, and maintainability.
+
+1. Performance:
+
+Environmental conditions (temperature, humidity, contact sensors, and power switches) are displayed with a minimum update rate of every two seconds, ensuring real-time responsiveness.
+Sensor data acquisition occurs at a minimum rate of 10 Hz, providing accurate and timely information.
+Environmental sensors and controllers must be within 1000 feet of the master control device for effective communication.
+2. Reliability:
+
+The DigitalHome system boasts high reliability with a failure rate of no more than 1 failure per 10,000 hours of operation, ensuring consistent performance.
+Backup and recovery mechanisms are incorporated to ensure data integrity and system resilience.
+Daily backups of all system data are performed, with the backup time set by the DH Technician during system setup.
+In case of system failure, the recovery mechanism restores system data from the most recent backup, minimizing downtime and data loss.
+Exception handling is implemented to provide clear and descriptive messages to users in case of errors or exceptional conditions, ensuring transparency and user-friendliness.
+3. Safety:
+
+While specific safety requirements are not outlined, the system's high reliability is crucial to ensure the safety of home dwellers.
+System failures could potentially affect safety by compromising security, lighting, temperature, humidity, and appliance control.
+4. Security:
+
+User accounts are established upon installation, and the system employs Transport Layer Security for authentication and information encryption, ensuring data protection.
+Login to an account requires both a username and a password, providing two-factor authentication for enhanced security.
+5. Maintenance:
+
+The system is developed using methods and techniques that support easy maintenance, including documentation of requirements, design, and code.
+Abstraction, information hiding, and module independence in system design promote modularity and maintainability.
+Adherence to IEEE standards and the HomeOwner Coding Standard ensures consistency and compatibility with industry best practices.
+All modules and components are designed for potential incorporation into a fully specified commercial version of the DigitalHome System, ensuring future scalability and adaptability.
+Constraints:
+The provided document does not explicitly mention any specific constraints for the DigitalHome system. However, some potential constraints can be inferred from the context:
+
+Development Time: The project is expected to be completed within 12 months of inception, which could impose time constraints on the development team.
+
+Development Team Size: The development team consists of five engineers, which could limit the scope and complexity of the project.
+
+Development Process: The project is required to follow the development process specified by DigitalHomeOwner Inc., which could impose specific methodologies and tools on the development team.
+
+Hardware and Software Technology: The project is expected to employ widely used and accepted hardware and software technology, which could limit the use of cutting-edge or specialized technologies.
+
+Cost Minimization: The project is expected to minimize costs for DigitalHome elements, which could impose restrictions on the selection of hardware and software components.
+
+Simulated Environment: The DigitalHome system will be tested in a simulated environment, which could limit the realism and accuracy of testing results.
+
+Major Changes: Major changes to the document require approval from the Director of the DigitalHomeOwner Division, which could introduce additional approval processes and potential delays.
+
+Operational Environment: The system requires an Internet Service Provider (ISP), which could limit its accessibility in areas with limited internet connectivity.
+
+Home Web Server: The system requires a home web server, which could impose additional hardware and software requirements on users.
+
+Gateway Device: The system requires a Gateway Device, which could impose additional hardware and software requirements on users.
+
+Sensors and Controllers: The system requires various sensors and controllers, which could impose additional hardware and software requirements on users.
+
+Prototype Version: The system is a prototype version, which could limit its functionality and performance compared to a fully specified commercial version.
+
+Object-Oriented Development: The project is required to use object-oriented development using UML 2.0, which could impose specific development methodologies and tools on the development team.
+
+Documentation Requirements: All system documents must adhere to specific formatting and archival requirements, which could impose additional documentation tasks on the development team.
+
+User Documentation: The system requires online user documentation, which could impose additional development and maintenance tasks on the development team.

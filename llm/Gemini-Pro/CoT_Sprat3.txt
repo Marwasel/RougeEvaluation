@@ -1,0 +1,89 @@
+SPRAT: Security and Privacy Requirements Analysis Tool
+Summary
+SPRAT is a software tool designed to assist analysts in the scenario and goal mining, reconciliation, and management processes. It aims to maintain a goal and scenario repository for use in continuing analyses of policies and other documents from which goals and scenarios can be derived.
+
+Functional Requirements
+User Access Module (UAM)
+
+Supports user access levels: Administrator, Project Manager, Analyst, Guest
+Defines permissions and restrictions for each level
+Goal Specification and Management Module (GSM)
+
+Allows analysts to add, edit, and delete goals
+Provides templates for goals, scenarios, P3P statements, EPAL rules, and access control policies
+Allows analysts to classify goals based on policy, observability, protection, and subject
+Maintains traceability links between goals and policies
+Displays the number of occurrences of a goal in a policy and within a domain
+Displays the context of a goal
+Allows analysts to create and update goal keyword definitions
+Allows analysts to search goals according to analyst-chosen attributes
+Provides a template to express goals in BNF grammar
+Supports conflict identification and resolution
+Allows analysts to view scenarios associated with individual scenarios
+Provides a P3P and EPAL dedicated section
+Policy Management Module (PM)
+
+Allows project managers to add, edit, and delete policies
+Allows project managers to assign domains to policies
+Flesch Readability Module (FRE)
+
+Calculates the Flesch Readability score for textual documents
+Displays the Flesch Readability score for each document
+Exports the Flesch Readability score for each document to a CSV file
+Scenario Specification and Management Module (SSM)
+
+Allows analysts to add, edit, and delete scenarios
+Provides templates for scenarios, P3P statements, EPAL rules, and access control policies
+Allows analysts to classify scenarios based on policy, observability, protection, and subject
+Maintains traceability links between scenarios and policies
+Displays the number of occurrences of a scenario in a policy and within a domain
+Displays the context of a scenario
+Allows analysts to create and update scenario keyword definitions
+Allows analysts to search scenarios according to analyst-chosen attributes
+Provides a template to express scenarios in BNF grammar
+Supports conflict identification and resolution
+Allows analysts to view goals associated with individual scenarios
+Provides a P3P and EPAL dedicated section
+Requirements Specification Module (RS)
+
+Allows analysts to add, edit, and delete requirements
+Provides templates for requirements, P3P statements, EPAL rules, and access control policies
+Allows analysts to classify requirements based on policy, observability, protection, and subject
+Maintains traceability links between requirements and policies
+Displays the number of occurrences of a requirement in a policy and within a domain
+Displays the context of a requirement
+Allows analysts to create and update requirement keyword definitions
+Allows analysts to search requirements according to analyst-chosen attributes
+Provides a template to express requirements in BNF grammar
+Supports conflict identification and resolution
+Allows analysts to view goals associated with individual scenarios
+Provides a P3P and EPAL dedicated section
+Legal Compliance Module (LC)
+
+Provides a dedicated section for legal compliance information
+Allows analysts to view legal requirements and regulations
+Allows analysts to assess the compliance of policies, scenarios, and requirements with legal regulations
+Requirements-level Access Control Analysis Framework Module (RACAF)
+
+Provides a framework for analyzing access control policies
+Allows analysts to define and manage access control rules
+Supports conflict identification and resolution
+Allows analysts to view the impact of access control policies on users and data
+P3P Module (P3P)
+
+Provides a dedicated section for P3P statements
+Allows analysts to create, edit, and delete P3P statements
+Allows analysts to view the P3P statements associated with policies, scenarios, and requirements
+Non-Functional Requirements
+UAM: Secure storage of passwords, secure login, different access levels
+GSM: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+PM: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+FRE: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+SSM: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+RS: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+LC: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+RACAF: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+P3P: Ability to calculate Flesch Readability score for textual documents in less than 1 second, display the score for each document, export the score to a CSV file
+Constraints
+FRE: Flesch Readability score shall be calculated using the standard formula
+FRE: Flesch Readability score shall be displayed with two decimal places

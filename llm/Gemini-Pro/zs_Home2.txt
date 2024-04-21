@@ -1,0 +1,32 @@
+Description:
+
+This document specifies the requirements for the development of a "Smart House" called DigitalHome (DH).
+DH will allow residents to manage daily lives by providing security, environmental management (temperature, humidity, lighting), entertainment, and communications.
+DH components consist of household devices, sensors, controllers, communication links, and a computer system for management.
+This initial prototype version will be used by HomeOwner management to make business decisions about future commercial development of DigitalHome products.
+
+2. Functional Requirements:
+DH will allow users to control temperature, humidity, lights, security, and small appliances from anywhere using a web-ready device.
+DH will use a home web server to communicate and control home devices and systems.
+A master control unit (DH Gateway Device) connects to the home's broadband internet and uses wireless communication to send and receive signals between the DH system and home devices.
+Up to eight thermostats and humidistats can be placed throughout the home for individual or collective control.
+DH can manage up to fifty door and window contact sensors and activate security alarms.
+DH can manage up to one hundred 115-volt, 10-amp power switches for small appliances and lighting.
+DH Planner allows users to set preset home parameters for specific time periods.
+
+3. Non-functional Requirements and Constraints:
+DH must be highly reliable with no more than 1 failure per 10,000 hours of operation.
+DH will incorporate backup and recovery mechanisms to restore system data in case of failure.
+DH will use Transport Layer Security for authentication and information encryption.
+DH development must use methods and techniques to support maintenance, including documentation, abstraction, module independence, and adherence to IEEE standards and HomeOwner coding standards.
+All system documents must be up-to-date and use the Homeowner document format.
+DH will use object-oriented development using UML 2.0.
+DH will provide online user documentation, including FAQs, parameter setting explanations, and DH Planner instructions.
+
+Constraints:
+The prototype version must be completed within twelve months.
+The development team will consist of five engineers.
+Widely used, accepted, and available hardware and software technologies and standards should be employed where possible.
+The cost of DH elements should be minimized.
+DH will be tested in a simulated environment.
+Major changes to this document must be approved by the Director of the DigitalHomeOwner Division.

@@ -3,148 +3,120 @@ home management system that allows home residents to easily manage their daily l
 
 
 Users Description
-3.2.1 DigitalHome Users
-3.2.1.1 Users shall monitor/control their home environment using the DH system capabilities.
-3.2.1.2 User is familiar with layout of their home and location of sensor and control devices.
-3.2.1.3 While not familiar with technical details, users can use a web interface for basic operations like logging in.
-3.2.1.4 Designated master users can change system configuration, user accounts, and modify default settings.
+DigitalHome Users
+Users shall monitor/control their home environment using the DH system capabilities.
+User is familiar with layout of their home and location of sensor and control devices.
+While not familiar with technical details, users can use a web interface for basic operations like logging in.
+Designated master users can change system configuration, user accounts, and modify default settings.
 
 
-3.2.2 DigitalHome Technician
-3.2.2.1 DH Technician is responsible for setting up and maintaining the DH system configuration
-3.2.2.2 DH Technicians have experience with the hardware, software, and web services used in the DH system.
-3.2.2.3 DH Technicians are specially trained by DigitalHomeOwner on the functionality, architecture, and operation of the DH system.
-3.2.2.4 DH Technicians have more rights than general users such as configuring the system , managing users accounts, and start/stop the DH system.
+DigitalHome Technician
+DH Technician is responsible for setting up and maintaining the DH system configuration
+DH Technicians have experience with the hardware, software, and web services used in the DH system.
+DH Technicians are specially trained by DigitalHomeOwner on the functionality, architecture, and operation of the DH system.
+DH Technicians have more rights than general users such as configuring the system , managing users accounts, and start/stop the DH system.
 
 
 Development Constraints
-3.3.1 The prototype DigitalHome System must be completed within twelve months of inception.
-3.3.2 The development team consists of five engineers, with support from DigitalHomeOwner Director.
-3.3.3 The team will follow the development process specified by DigitalHomeOwner Inc.
-3.3.4 Widely available hardware, software, and development tools will be employed where possible.
-3.3.5 To minimize costs due to market competition, the team will describe efforts to reduce expenses on DH elements.
-3.3.6 The DH system will be tested in a simulated environment without an actual physical home.
-3.3.7 Major requirement changes must be approved by the DigitalHomeOwner Division Director.
+The prototype DigitalHome System must be completed within twelve months of inception.
+The development team consists of five engineers, with support from DigitalHomeOwner Director.
+The team will follow the development process specified by DigitalHomeOwner Inc.
+Widely available hardware, software, and development tools will be employed where possible.
+To minimize costs due to market competition, the team will describe efforts to reduce expenses on DH elements.
+The DH system will be tested in a simulated environment without an actual physical home.
+Major requirement changes must be approved by the DigitalHomeOwner Division Director.
 
 
 Operational Environment
+The home system shall require a widely available Internet Service Provider(ISP), like cable modem
+The system shall have an individual home web server hosted on a home computer established for controlling DH elements, storage of DH plans/data, managing user accounts, and providing backup services.
+The DH Gateway device shall communicate with all DigitalHome devices and connect to a broadband internet, should contain an RF module to send/receive wireless communication with sensors/controllers, and operate up to 1000-foot range for indoor transmission.
 
 
-3.4.1 The home system shall require a widely available Internet Service Provider(ISP), like cable modem
-3.4.2 The system shall have an individual home web server hosted on a home computer established for controlling DH elements, storage of DH plans/data, managing user accounts, and providing backup services.
-3.4.3 The DH Gateway device shall communicate with all DigitalHome devices and connect to a broadband internet, should contain an RF module to send/receive wireless communication with sensors/controllers, and operate up to 1000-foot range for indoor transmission.
-
-
-3.4.4 The system shall include programmable thermostats to monitor and regulate temperature with current temperature reading, a “set point” temperature, and sensitivity range(-10C to 40C), humidistats for humidity to monitor and regulate space humidity, magnetic contact switches for door/window entry monitoring, security sound/light alarms, and power switches to monitor and control appliance state.
+The system shall include programmable thermostats to monitor and regulate temperature with current temperature reading, a “set point” temperature, and sensitivity range(-10C to 40C), humidistats for humidity to monitor and regulate space humidity, magnetic contact switches for door/window entry monitoring, security sound/light alarms, and power switches to monitor and control appliance state.
 
 
 Functional Requirements
 
 
-4.1 General Requirements
+General Requirements
+Web-ready devices like computers, phones, or PDAs can control the home's temperature, humidity, lights, security, and appliances.
+A user shall be able to monitor and control home devices through a DH home web server acting as the communication center.
+Each home has a master control device(DH getaway device), connecting to broadband internet and communicating wirelessly with home systems.
+The system shall be equipped with environmental controllers and sensors for temperature, humidity, contact, security alarms, and power switches.
+Using wireless communication, sensor values can be read and saved in the home database.
+Controller values can be sent to controllers to change the DH environment.
 
 
-4.1.1 Web-ready devices like computers, phones, or PDAs can control the home's temperature, humidity, lights, security, and appliances.
-4.1.2 A user shall be able to monitor and control home devices through a DH home web server acting as the communication center.
-4.1.3 Each home has a master control device(DH getaway device), connecting to broadband internet and communicating wirelessly with home systems.
-4.1.4 The system shall be equipped with environmental controllers and sensors for temperature, humidity, contact, security alarms, and power switches.
-4.1.5 Using wireless communication, sensor values can be read and saved in the home database.
-4.1.6 Controller values can be sent to controllers to change the DH environment.
+Thermostat Requirements
+Users can monitor and control home temperatures remotely via programmable thermostats using web ready devices, and be able to set the thermostat temperatures to between 60 °F and 80 °F.
+Up to 8 thermostats can be placed in different rooms with individual or collective scheduled temperature settings. Users can schedule up to 24 hourly temperature settings, and any manual adjustments made will remain until next schedule begins.
+Thermostats wirelessly communicate with the master control unit.
+The system supports Fahrenheit and Celsius temperature units.
+The system is compatible with centralized HVAC systems per industry standards.
 
 
-4.2 Thermostat Requirements
+Humidistat Requirements
+Users can monitor and control home humidity levels between 30-60%, from any location using programmable humidistats.
+Up to 8 humidistats in different rooms with scheduled humidity settings are supported, and a single humidistat shall be placed in enclosed space, with 24 hourly settings per day.
+Humidistats communicate wirelessly through the master control unit.
 
 
-4.2.1 Users can monitor and control home temperatures remotely via programmable thermostats using web ready devices, and be able to set the thermostat temperatures to between 60 °F and 80 °F.
-4.2.2  Up to 8 thermostats can be placed in different rooms with individual or collective scheduled temperature settings. Users can schedule up to 24 hourly temperature settings, and any manual adjustments made will remain until next schedule begins.
-4.2.3 Thermostats wirelessly communicate with the master control unit.
-4.2.4 The system supports Fahrenheit and Celsius temperature units.
-4.2.5 The system is compatible with centralized HVAC systems per industry standards.
+Security System Requirements
+The system consists of contact sensors and security alarms that can manage up to fifty door and window contact sensors and able to activate both light and sound alarms
+When a security breach occurs and a contact sensor is set OPEN, the alarm system activates.
 
 
-4.3 Humidistat Requirements
+Appliance Management Requirements
+The Appliance Manager can control small appliances, including lighting units.
+It can manage up to one hundred 115 volt, 10 amp power switches.
+The system can provide information about the state of power switches (ON/OFF).
+The system shall be able to change the state of a power switch (ON/OFF).
+If state of power switch changes, states remain until the planned or default time period ends.
 
 
-4.3.1 Users can monitor and control home humidity levels between 30-60%, from any location using programmable humidistats.
-4.3.2 Up to 8 humidistats in different rooms with scheduled humidity settings are supported, and a single humidistat shall be placed in enclosed space, with 24 hourly settings per day.
-4.3.3 Humidistats communicate wirelessly through the master control unit.
+DH Planning and Reporting Requirements
+DigitalHome Planner shall provide a user with the capability to direct the system to set preset home parameters for time periods.
+Users can create/modify monthly plans specifying environmental settings, and override planned parameter values through the DH website or manual switches.
+The system shall provide reports on home management and control for the past two years.
 
 
-4.4 Security System Requirements
+Other Non-Functional Requirements
+
+Performance Requirements
+Environmental condition displays update at least every two seconds.
+Sensors have a minimum data acquisition rate of 10 Hz.
+Devices must be within 1000 feet of the master control device for communication.
 
 
-4.4.1 The system consists of contact sensors and security alarms that can manage up to fifty door and window contact sensors and able to activate both light and sound alarms
-4.4.2 When a security breach occurs and a contact sensor is set OPEN, the alarm system activates.
+Reliability
+The DigitalHome System aims for high reliability with minimal failures.
+The Digital Home System shall incorporate backup and recovery mechanisms.
+All DigitalHome operations shall incorporate exception handling.
 
 
-4.5 Appliance Management Requirements
+Safety Requirements
+High system reliability is crucial to prevent system failures that could impact the safety of home dwellers.
 
 
-4.5.1 The Appliance Manager can control small appliances, including lighting units.
-4.5.2 It can manage up to one hundred 115 volt, 10 amp power switches.
-4.5.3 The system can provide information about the state of power switches (ON/OFF).
-4.5.4 The system shall be able to change the state of a power switch (ON/OFF).
-4.5.5 If state of power switch changes, states remain until the planned or default time period ends.
+Security Requirements
+Upon installation, a user account must be established where the system will provide authentication and information encryption through effective security technology.
+Log in shall require entry of an account name and a password.
 
 
-4.6 DH Planning and Reporting Requirements
+Maintenance Requirements
+The development of the DH system shall use methods and techniques to support system maintenance.
+All modules and components of the prototype shall be designed such that its incorporated in a fully specified commercial version of the DigitalHome System.
 
 
-4.6.1 DigitalHome Planner shall provide a user with the capability to direct the system to set preset home parameters for time periods.
-4.6.2 Users can create/modify monthly plans specifying environmental settings, and override planned parameter values through the DH website or manual switches.
-4.6.3 The system shall provide reports on home management and control for the past two years.
+Business rules
+All system documents shall be up-to-date, use the Homeowner document format, and reside in the Archive at completion of the project.
 
-
-5 Other Non-Functional Requirements
-
-
-5.1 Performance Requirements
-
-
-5.1.1 Environmental condition displays update at least every two seconds.
-5.1.2 Sensors have a minimum data acquisition rate of 10 Hz.
-5.1.3 Devices must be within 1000 feet of the master control device for communication.
-
-
-5.2  Reliability
-5.2.1 The DigitalHome System aims for high reliability with minimal failures.
-5.2.2 The Digital Home System shall incorporate backup and recovery mechanisms.
-5.2.3 All DigitalHome operations shall incorporate exception handling.
-
-
-5.3 Safety Requirements
-
-
-5.3.1 High system reliability is crucial to prevent system failures that could impact the safety of home dwellers.
-
-
-5.4 Security Requirements
-
-
-5.4.1 Upon installation, a user account must be established where the system will provide authentication and information encryption through effective security technology.
-5.4.2 Log in shall require entry of an account name and a password.
-
-
-5.5 Maintenance Requirements
-
-
-5.5.1 The development of the DH system shall use methods and techniques to support system maintenance.
-5.5.2 All modules and components of the prototype shall be designed such that its incorporated in a fully specified commercial version of the DigitalHome System.
-
-
-5.6 Business rules
-
-
-5.6.1 All system documents shall be up-to-date, use the Homeowner document format, and reside in the Archive at completion of the project.
-
-
-5.6.2 HomeOwner has designated object-oriented development, using UML 2.0., with exceptions to this rule requiring approval by the CIO.
+HomeOwner has designated object-oriented development, using UML 2.0., with exceptions to this rule requiring approval by the CIO.
 
 
 
 
-5.7 User documentation
-
-
-5.7.1 The DigitalHome System must provide online documentation for users, including
+User documentation
+The DigitalHome System must provide online documentation for users, including
 FAQ section, information on DH parameter settings, sensor reading, limitations, and accuracy, and instructions on using the DH Planner.

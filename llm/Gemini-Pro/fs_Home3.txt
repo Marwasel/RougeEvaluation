@@ -1,0 +1,52 @@
+Document Overview:
+
+This document specifies the requirements for the development of a "Smart House" called DigitalHome (DH) by the DigitalHomeOwner Division of HomeOwner Inc.
+The initial version of DigitalHome will be a limited prototype, used by HomeOwner management to make business decisions about future commercial development of DigitalHomeOwner products and services.
+This document is not intended as a comprehensive or complete specification of DigitalHome requirements.
+Key Features:
+
+The DigitalHome system will allow users to manage devices that control the environment of a home through a web interface.
+Users can monitor and control temperature, humidity, security, and power to small appliances and lighting units.
+The system will be based on widely used, accepted, and available hardware and software technology and standards.
+Functional Requirements:
+
+General:
+The system allows control via a web-ready computer, cell phone, or PDA.
+A DH home web server provides interaction with and control of home devices and systems.
+A master control device (DH Gateway Device) connects to the home's broadband Internet connection and uses wireless communication to send and receive communication between the DigitalHome system and the home devices and systems.
+Thermostat:
+Users can monitor and control a home's temperature from any location.
+The system supports Fahrenheit and Celsius temperature values.
+The system is compatible with centralized HVAC systems.
+Humidistat:
+Users can monitor and control a home's humidity from any location.
+The system uses wireless signals to communicate with the humidistats.
+Security System:
+The system consists of contact sensors and a set of security alarms.
+The alarm system is activated when a security breach occurs and a contact sensor is set OPEN.
+Appliance Management:
+Users can turn small appliances and lighting units on or off as desired.
+The system can provide information about the state of a power switch (OFF or ON).
+The system can change the state of a power switch (OFF to ON, or ON to OFF).
+DH Planning and Reporting:
+Users can set various preset home parameters for certain time periods.
+The system provides a monthly planner and report.
+Other Non-Functional Requirements:
+
+Performance:
+Displays of environmental conditions are updated at least every two seconds.
+Sensor data acquisition rate is at least 10 Hz.
+Reliability:
+The system must be highly reliable with no more than 1 failure per 10,000 hours of operation.
+The system incorporates backup and recovery mechanisms.
+Safety:
+High system reliability is important to ensure there are no system failures in carrying out user requests.
+Security:
+The system provides for authentication and information encryption through Transport Layer Security.
+Maintenance:
+The development of the DH system uses methods and techniques to support system maintenance.
+Business Rules:
+All system documents must be up-to-date and reside in the HomeOwner Document Archive at completion of the project.
+HomeOwner has designated object-oriented development, using UML 2.0, as the preferred method for development of software for HomeOwner products.
+User Documentation:
+The system provides users with online documentation about the DigitalHome system installed in their home.

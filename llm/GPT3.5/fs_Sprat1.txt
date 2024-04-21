@@ -1,0 +1,26 @@
+Summary:
+
+The document titled "Security and Privacy Requirements Analysis Tool (SPRAT) Software Requirements Specification" provides an overview of a tool designed to address the alignment and conflict issues between security and privacy policies in web-based systems. The document is dated July 12, 2004 and lists the authors as Neha Jain, Dr. Annie I. Antón, Qingfeng He, William Stufflebeam, and Jack Frink.
+
+Introduction:
+The introduction highlights the challenges of developing privacy and security policies for web-based systems. It emphasizes the importance of identifying high-level goals and using scenarios for requirements analysis and conflict detection. The document aims to develop a tool to assist analysts in mining, reconciling, and managing goals and scenarios derived from policies and other documents.
+
+Module Breakdown:
+The SPRAT tool consists of six main modules:
+a. User Access Module (UAM): Manages access levels and permissions for different user classes.
+b. Goal Specification and Management Module (GSM): Supports goal management.
+c. Policy Management Module (PM): Supports policy management.
+d. Flesch Readability Index Module (FRE): Calculates the Flesch Readability Index of policy documents.
+e. Scenario Specification and Management Module (SSM): Supports scenario management.
+f. Requirements Specification Module (RS): Supports system requirements.
+
+Module Requirements:
+This section provides detailed requirements for each module. It includes functional requirements, their descriptions, origins, and priorities assigned to them. The User Access Module (UAM) is further elaborated with specific permissions and restrictions for administrator, project manager, analyst, and guest access levels.
+
+System Requirements:
+This section outlines the services and constraints that the SPRAT tool must provide. It covers functional requirements, non-functional requirements (such as accuracy and performance), security and privacy requirements, a requirements traceability matrix, and document revision history.
+
+Appendix:
+The appendix contains a glossary of terms used in the document, acknowledgments, and references.
+
+Overall, the document presents an overview of the SPRAT tool, its modules, and the requirements for each module. It emphasizes the importance of aligning security and privacy policies and provides a foundation for the development of the tool.

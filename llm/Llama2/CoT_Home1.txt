@@ -1,0 +1,19 @@
+Product Description:
+The Digital Home System is a smart home management system that allows home residents to easily manage their daily lives by providing a lifestyle that brings together security, environmental and energy management, entertainment, and communications. The system consists of household devices (e.g., a heating and air conditioning unit, a security system, and small appliances and lighting units, etc.), sensors and controllers for the devices, communication links between the components, and a computer system.
+
+Functional Requirements:
+
+The system should be able to monitor and control temperature, humidity, and lighting in the home.
+The system should be able to monitor and control the security system, including sensors and cameras.
+The system should be able to control small appliances and lighting units.
+The system should be able to provide entertainment services, such as music and video streaming.
+The system should be able to provide communication services, such as voice and video calls.
+The system should be able to integrate with other smart devices in the home.
+Non-Functional Requirements/Constraints:
+
+The system should be easy to use and intuitive for home residents.
+The system should be reliable and available, with minimal downtime.
+The system should be secure, with protections against unauthorized access and data breaches.
+The system should be designed to minimize costs, including the cost of hardware and software components.
+The system should be tested in a simulated environment, with no actual physical home and all sensors and controllers simulated.
+The system should be developed within a budget of $500,000 and within a time frame of 12 months.

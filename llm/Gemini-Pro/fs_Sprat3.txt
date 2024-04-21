@@ -1,0 +1,31 @@
+This document outlines the requirements for the Security and Privacy Requirements Analysis Tool (SPRAT), a software tool designed to assist analysts in the process of goal and scenario mining, reconciliation, and management.
+
+Key features of SPRAT include:
+
+User Access Module: Manages access levels and permissions for different user classes (administrator, project manager, analyst, guest).
+Goal Specification and Management Module: Supports goal management, including adding, updating, deleting, and classifying goals.
+Policy Management Module: Supports policy management, including adding, deleting, and editing policies.
+Flesch Readability Index Module: Calculates the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module: Supports scenario management, including adding, updating, deleting, and classifying scenarios.
+Requirements Specification Module: Supports the requirements for a system.
+Legal Compliance: Ensures compliance with relevant legal requirements.
+Requirements-level Access Control Analysis Framework (RACAF): Supports functional requirements for RACAF.
+SPRAT will provide several benefits, including:
+
+Improved efficiency: Automates tasks such as goal and scenario identification, reconciliation, and management.
+Enhanced accuracy: Reduces errors associated with manual analysis.
+Increased consistency: Ensures consistency in the analysis process.
+Improved communication: Facilitates communication among stakeholders.
+Priority levels have been assigned to each requirement based on discussions with stakeholders:
+
+High: Critical requirements that must be satisfied for the system to function properly.
+Medium: Important requirements that are desirable but not critical.
+Low: Desirable requirements that can be postponed for later versions of the system.
+The document also includes:
+
+Non-functional requirements (NFRs) that specify the properties the system must satisfy.
+Security and privacy requirements (SPRs) that ensure the security of sensitive data.
+A requirements traceability matrix that graphically displays dependencies between requirements.
+A document revision history that outlines the version of the current document, the people responsible for the document, dates the document is modified, and the changes made to the document.
+A glossary of terms used throughout the document.
+A bibliography of the references used in the document.

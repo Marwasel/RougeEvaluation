@@ -1,0 +1,41 @@
+Document Description: This document specifies the requirements for a tool that will assist analysts in the scenario and goal mining, reconciliation, and management processes. The tool will provide strong management, flexible user-defined conditions, and support for automatic multi-user analysis results comparison.
+
+User Access Module (UAM)
+
+The system shall support three access levels: Administrator, Project Manager, and Analyst.
+The Administrator shall have the following privileges:
+Create user groups (e.g., NCSU TPP.org, GT TPP.org)
+Create project managers, analysts, and guests
+Reset user passwords when needed
+Disable access for old project managers, analysts, and guests
+The Project Manager shall have the following privileges:
+Insert a new privacy policy to the repository
+Delete a privacy policy from the repository
+Create/add a new domain of privacy policies (e.g., Healthcare, financial, e-commerce, federal agency, etc.)
+Assign analysts to user groups created by the administrator
+Assign user groups and individual analysts to projects
+Set restrictions on access to certain kinds of information for guests
+Export data from a project to an XML file
+Save the current version of the repository for evolution analysis
+The Analyst shall have the following privileges:
+Select a privacy policy that has been assigned to them by the project manager
+Add, delete, and update goals
+Add, delete, and update scenarios
+View details of any goal or scenario in the repository (e.g., ID, description, source, keyword, taxonomy, actor, occurrence, relevant policy)
+Update personal profile (e.g., name, ID, contact information, user groups, passwords)
+Add, delete, and update requirements
+Add, delete, and update access control policies (e.g., subject, object, action)
+View access control policies
+
+Goal Specification and Management Module:
+Ability to add, delete, and update goals
+Ability to view goal details such as ID, description, source, keyword, taxonomy, actor, and occurrence
+Scenario Specification and Management Module:
+Ability to add, delete, and update scenarios
+Ability to view scenario details such as ID, description, source, keyword, taxonomy, actor, and occurrence
+Requirements Specification Module:
+Ability to add, delete, and update requirements
+Ability to view requirement details such as ID, description, source, keyword, taxonomy, actor, and occurrence
+Security and Privacy Requirements:
+Compliance with security and privacy policies
+Access control policies for subjects, objects, and actions

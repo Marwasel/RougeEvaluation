@@ -1,0 +1,27 @@
+Product Description:
+
+The Digital Home (DH) system is a prototype smart home system that allows users to manage their home environment remotely through a web interface. The system includes the following components:
+
+Thermostats: Control the temperature in different parts of the home.
+Humidistats: Control the humidity in different parts of the home.
+Security System: Monitors for security breaches using contact sensors and activates alarms in response.
+Appliance Management: Allows users to turn on and off small appliances and lighting units.
+DH Planner: Enables users to schedule different environmental settings for different times of the day and days of the week.
+Functional Requirements:
+
+Users can control the temperature, humidity, security, and appliances from anywhere with a web-ready device.
+The system uses wireless communication to send and receive information between the components.
+Users can set temperature and humidity levels for individual rooms.
+The system can manage up to 50 contact sensors, 100 power switches, 8 thermostats, and 8 humidistats.
+Users can create monthly plans to set environmental parameters for different times of the day.
+The system provides monthly reports on temperature, humidity, security breaches, and system operation.
+Non-Functional Requirements/Constraints:
+
+The system must be highly reliable with no more than 1 failure per 10,000 hours of operation.
+The system must incorporate backup and recovery mechanisms.
+The system must respond with clear messages when errors or exceptional conditions occur.
+The system must be secure and use encryption to protect user information.
+The system must be designed and implemented in a way that allows it to be incorporated into a commercial version of the product.
+The system must be documented according to Homeowner standards.
+The system must use object-oriented development methods.
+The system must provide online user documentation.

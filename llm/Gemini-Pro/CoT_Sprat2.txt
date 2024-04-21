@@ -1,0 +1,54 @@
+SPRAT: A Tool for Security and Privacy Requirements Analysis
+Product Description:
+
+SPRAT (Security and Privacy Requirements Analysis Tool) is a software tool designed to assist analysts in the process of managing and analyzing security and privacy requirements for web-based systems. It provides a comprehensive set of features for:
+
+Goal Specification and Management: Capture, classify, and manage goals derived from privacy policies and other sources.
+Scenario Specification and Management: Define and manage scenarios that describe how the system interacts with users and data.
+Policy Management: Add, edit, and manage privacy policies associated with the system.
+Flesch Readability Index Calculation: Analyze the readability of policy documents.
+User Access Management: Control access to the tool and its data based on user roles and permissions.
+Analysis Document Management: Organize and manage analysis documents, such as policy documents, within the tool.
+Functional Requirements:
+
+Goal Management:
+Add, edit, and delete goals.
+Classify goals based on various criteria (e.g., subject, actor, protection type).
+Search and retrieve goals based on specific criteria.
+View the context of a goal within the original policy document.
+Trace goals to the policies from which they were derived.
+Display the number of occurrences of a goal in a policy or across multiple policies.
+Display the number of different goals that occur in a policy.
+Create and manage goal keyword definitions.
+Support conflict identification and resolution between requirements and privacy policies.
+View scenarios associated with individual goals.
+Scenario Management:
+Add, edit, and delete scenarios.
+View the goals shared among different scenarios.
+Policy Management:
+Add, edit, and delete privacy policies.
+Assign domains to policies (e.g., healthcare, financial, e-commerce).
+Edit the domain assigned to a policy.
+Flesch Readability Index Calculation:
+Calculate the Flesch Readability Index of policy documents.
+User Access Management:
+Define and manage user roles and permissions.
+Control access to the tool and its data based on user roles.
+Analysis Document Management:
+Add and manage analysis documents, such as policy documents.
+Assign domains to analysis documents.
+Edit the domain assigned to an analysis document.
+Non-Functional Requirements:
+
+User Interface: The system shall have a user-friendly interface for goal management.
+Performance: The system shall allow for efficient goal search and retrieval.
+Scalability: The system shall be scalable to accommodate large numbers of goals and policies.
+Reliability: The system shall be reliable and available for use by authorized users.
+Security: The system shall only be accessible to authorized users.
+Privacy: The system shall not store any personally identifiable information (PII) in the database.
+Compliance: The system shall comply with all applicable privacy regulations.
+Constraints:
+
+The system shall not store any personally identifiable information (PII) in the database.
+The system shall only be accessible to authorized users.
+The system shall comply with all applicable privacy regulations.

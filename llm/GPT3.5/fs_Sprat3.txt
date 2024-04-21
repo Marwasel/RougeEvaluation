@@ -1,0 +1,26 @@
+Title: Security and Privacy Requirements Analysis Tool (SPRAT) - Software Requirements Specification
+
+Summary:
+The document "2004 - sprat.pdf" is a Software Requirements Specification for the Security and Privacy Requirements Analysis Tool (SPRAT). It provides an overview of the tool's purpose, modules, and requirements. The document was authored by Neha Jain, Dr. Annie I. Antón, Qingfeng He, William Stufflebeam, and Jack Frink.
+
+Introduction:
+The document highlights the importance of integrating security and privacy policies into web-based systems from the beginning, as misalignment and conflicts can lead to customer mistrust. It emphasizes the need for high-level goals and scenarios in the requirements analysis process to ensure completeness, readability, and conflict detection.
+
+Module Breakdown:
+The SPRAT tool consists of six main modules:
+
+User Access Module (UAM): Manages access levels and permissions for different user classes.
+Goal Specification and Management Module (GSM): Supports goal management within the tool.
+Policy Management Module (PM): Supports policy management within the tool.
+Flesch Readability Index Module (FRE): Calculates the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module (SSM): Supports scenario management within the tool.
+Requirements Specification Module (RS): Supports the requirements for a system.
+Legal Compliance (LC): Ensures legal compliance.
+Requirements-Level Access Control Analysis Framework Module (RACAF): Defines functional requirements for RACAF.
+P3P Module: Supports P3P (Platform for Privacy Preferences) integration.
+Module Requirements:
+The document outlines the functional requirements for each module. It includes the purpose, description, origin, and priority of each requirement. The requirements are categorized into high, medium, and low priority levels based on discussions with stakeholders.
+
+User Access Module (UAM):
+The UAM section defines three access levels (Administrator, Project Manager, Analysts) and their respective privileges and restrictions.
+

@@ -1,0 +1,63 @@
+Product Description:
+
+The Digital Home (DH) system is a "Smart House" prototype that allows users to manage their home environment and appliances remotely using a web-ready computer, cell phone, or PDA. The system consists of a home web server, a master control device (gateway), and various environmental controllers and sensors (thermostats, humidistats, contact sensors, security alarms, and power switches). The system communicates with these devices wirelessly and allows users to monitor and control temperature, humidity, security, and the state of small appliances.
+
+Functional Requirements:
+
+General:
+Control home temperature, humidity, lights, security, and appliances remotely.
+Communicate with the system through a web-ready computer, cell phone, or PDA.
+Use a master control device (gateway) to connect to the home's broadband internet connection and communicate wirelessly with other devices.
+Thermostat:
+Monitor and control temperature from any location.
+Set temperature between 60°F and 80°F in one-degree increments.
+Place up to eight thermostats in different rooms.
+Schedule temperature settings for each day of the week.
+Use wireless communication to communicate with the master control unit.
+Humidistat:
+Monitor and control humidity from any location.
+Set humidity level between 30% and 60% in 1% increments.
+Place up to eight humidistats in different rooms.
+Schedule humidity settings for each day of the week.
+Use wireless communication to communicate with the master control unit.
+Security System:
+Manage up to fifty door and window contact sensors.
+Activate both light and sound alarms in case of a security breach.
+Appliance Management:
+Manage up to one hundred 115-volt, 10-amp power switches.
+Turn appliances on or off as desired.
+Monitor the state of power switches (ON or OFF).
+Schedule appliance on/off settings for each day of the week.
+Planning and Reporting:
+Set various preset home parameters (temperature, humidity, security contacts, and appliance/light status) for specific time periods.
+Create and modify monthly plans for environmental parameter settings.
+Override planned parameter values through the website or manual switches.
+Generate monthly reports on temperature, humidity, security breaches, and system downtime.
+Non-Functional Requirements and Constraints:
+
+Performance:
+Update environmental conditions display at least every two seconds.
+Maintain a minimum sensor data acquisition rate of 10 Hz.
+Ensure all environmental sensor or controller devices are within 1000 feet of the master control device for communication.
+Reliability:
+Maintain a system reliability of no more than 1 failure per 10,000 hours of operation.
+Incorporate backup and recovery mechanisms to restore system data in case of failures.
+Safety:
+Prioritize high system reliability to prevent failures that could affect the safety of home dwellers.
+Security:
+Implement user authentication and information encryption through a recognized security technology like Transport Layer Security.
+Require account name and password for login.
+Maintenance:
+Maintain up-to-date system documentation using the Homeowner document format.
+Utilize object-oriented development using UML 2.0 for software development.
+Business Rules:
+Store all system documents in the HomeOwner Document Archive at project completion.
+Follow the HomeOwner Coding Standard for software development.
+Constraints:
+Complete the "prototype" version of the DigitalHome System within twelve months.
+Utilize a development team of five engineers.
+Follow the development process specified by Digital HomeOwner Inc.
+Employ widely used, accepted, and available hardware and software technology and standards.
+Minimize the cost of DigitalHome elements.
+Test the DH system in a simulated environment without an actual physical home.
+Obtain approval from the Director of the DigitalHomeOwner Division for major changes to the document.

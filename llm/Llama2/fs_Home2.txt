@@ -1,0 +1,16 @@
+Description: This document specifies the requirements for the development of a "Smart House" called DigitalHome (DH), which will allow home residents to easily manage their daily lives by providing a lifestyle that brings together security, environmental, and energy management.
+
+Key Features:
+
+Product Description and Scope: The DigitalHome system will allow users to monitor and control the environment in their home through a web-ready device.
+Users Description: The system will have two types of users: General Users and Master Users. General Users will be able to use the system to monitor and control the environment, while Master Users will have additional rights to change the configuration of the system.
+Development Constraints: The development team will employ widely used and available hardware and software technology and standards. The cost of DigitalHome elements will be minimized, and the system will be tested in a simulated environment.
+Operational Environment:
+
+The system will require an Internet Service Provider (ISP) and a home web server hosted on a home computer.
+The DH Gateway device will provide communication with all DigitalHome devices and connect with a broadband Internet connection.
+Other Non-Functional Requirements:
+
+Performance Requirements: The system will be designed to perform reliably and efficiently, with fast response times and minimal downtime.
+Security Requirements: The system will have robust security features to protect against unauthorized access and data breaches.
+Maintenance Requirements: The system will be designed for easy maintenance and updates.

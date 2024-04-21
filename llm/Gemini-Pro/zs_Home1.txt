@@ -1,0 +1,26 @@
+This document details the requirements for the development of a "Smart House" called DigitalHome (DH), a home management system that allows residents to easily manage their daily lives by providing for a lifestyle that brings together security, environmental and energy management, entertainment, and communications.
+
+Key features:
+
+Temperature control: Programmable thermostats allow users to set and monitor temperature from any location using a web-ready device.
+Humidity control: Programmable humidistats allow users to set and monitor humidity levels.
+Security system: Contact sensors and alarms provide security against breaches.
+Appliance management: Users can turn on/off small appliances and lighting units remotely.
+Planning and reporting: Users can set preset home parameters and receive monthly reports on energy usage and security events.
+Technical requirements:
+
+Wireless communication between devices and the master control unit.
+Compatibility with broadband internet and HVAC systems.
+High reliability with backup and recovery mechanisms.
+Security measures for user authentication and information encryption.
+Additional notes:
+
+This document describes a prototype version of the DH system.
+The development process will follow HomeOwner Inc. standards and best practices.
+User documentation will be provided online.
+References:
+
+American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE)
+DigitalHomeOwner Division, Digital Home High Level Requirements Definition
+HomeOwner Inc. technical reports and coding standards
+IEEE standards for software development

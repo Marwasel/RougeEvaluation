@@ -1,0 +1,22 @@
+This document outlines the requirements for a software tool called SPRAT (Security and Privacy Requirements Analysis Tool). SPRAT is designed to assist analysts in the process of goal mining, reconciliation, and management. It will maintain a goal and scenario repository for use in continuing analyses of policies and other documents from which goals and scenarios can be derived.
+
+Key Features of SPRAT
+User Access Management: SPRAT supports different user access levels with varying permissions and restrictions.
+Goal Management: Analysts can add, edit, and delete goals, as well as classify them based on various criteria.
+Scenario Management: Analysts can add, edit, and delete scenarios, and view scenarios associated with individual goals.
+Policy Management: Project managers can add and assign domains to policy documents, and edit or delete domains.
+Document Management: Project managers can add, edit, and delete document types, and create new domains for documents.
+Flesch Readability: Analysts can calculate the Flesch Readability Score and Flesch-Kincaid Grade Level for textual documents.
+Requirements Management: Analysts can add, edit, and delete requirements.
+Legal Compliance: SPRAT supports legal compliance requirements.
+RACAF (Requirements-level Access Control Analysis Framework): SPRAT supports the functional requirements for RACAF.
+User Access Levels
+Administrator: Full access to all features.
+Project Manager: Can add/edit/delete policies, assign domains, and manage projects.
+Analyst: Can add/edit/delete goals, scenarios, and requirements, and view policy details.
+Guest: Can view policies and documents with restrictions set by the project manager.
+Benefits of SPRAT
+Improved efficiency in goal and scenario analysis.
+Enhanced consistency and accuracy in policy analysis.
+Increased collaboration among analysts.
+Improved legal compliance.

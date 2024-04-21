@@ -1,0 +1,28 @@
+Description:
+
+The document is a Software Requirements Specification (SRS) for a smart home system called "DigitalHome" (DH). The system is designed to allow home owners to manage various aspects of their home, including temperature, humidity, security, and power to small appliances and lighting units. The system consists of sensors and controllers for these functions, as well as a web server and a gateway device that connects the system to the internet.
+
+Functional Requirements:
+
+The system shall allow a user to monitor and control the environment in their home through a web-ready device.
+The system shall include digital programmable thermostats and humidistats for temperature and humidity control.
+The system shall include magnetic alarm contact switches for security monitoring.
+The system shall include security sound and light alarms for security breaches.
+The system shall include digital programmable power switches for controlling the state of small appliances.
+The system shall be able to use wireless communication to send and receive communication between the gateway device and the other DigitalHome devices (sensors and controllers).
+The system shall be able to store user accounts and plans in a home database.
+Non-Functional Requirements:
+
+The system shall be highly reliable with no more than 1 failure per 10,000 hours of operation.
+The system shall incorporate backup and recovery mechanisms.
+The system shall provide exception handling to respond to user requests with clear and descriptive messages.
+The system shall be designed to support system maintenance through documentation, abstraction, information hiding, and module independence.
+The system shall be designed to be incorporated into a fully specified commercial version of the DigitalHome System.
+Constraints:
+
+The system shall be completed within 12 months of inception.
+The development team will consist of five engineers.
+The development team will use the development process specified by DigitalHomeOwner Inc.
+The system shall be tested in a simulated environment.
+The system shall be designed to minimize costs, including price comparisons between DH elements and competitive/comparable elements.
+The system shall be designed to adhere to the physical properties and constraints of an actual home and to real sensors and controllers.

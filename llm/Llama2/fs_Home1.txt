@@ -1,0 +1,22 @@
+What is the purpose of the document?
+The purpose of the document is to specify the requirements for the development of a "Smart House" called DigitalHome (DH).
+What is the scope of the project?
+The scope of the project is to develop a limited prototype version of DigitalHome, which will be used by HomeOwner management to make business decisions about the future commercial development of DigitalHomeOwner products and services.
+Who is the target audience for the document?
+The target audience for the document is the DigitalHomeOwner Division, in consultation with the Marketing Division of HomeOwner Inc.
+What are the main features of the DigitalHome system?
+The main features of the DigitalHome system include:
+Management of devices that control the environment of a home
+Web-ready device for monitoring and controlling the environment
+Simulated environment for testing
+Ability to establish an individual home web server hosted on a home computer
+Communication with all DigitalHome devices through a broadband Internet connection
+What are the requirements for the development of the DigitalHome system?
+The requirements for the development of the DigitalHome system include:
+A "prototype" version of the DigitalHome system must be completed within twelve months of inception
+The development team will consist of five engineers
+The development team will use the development process specified by Digital HomeOwner Inc.
+The DH system will be tested in a simulated environment
+The system shall require an Internet Service Provider (ISP)
+The DH Home Web Server shall provide interaction with and control of the DH elements
+The DH Gateway device shall provide communication with all DigitalHome devices and shall connect with a broadband Internet connection

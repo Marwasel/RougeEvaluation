@@ -1,0 +1,98 @@
+Functional Requirements
+User Access Module:
+Supports access levels for administrator, project manager, analyst, and guest.
+Administrator can manage user groups, create users, reset passwords, and disable users.
+Project manager can add and delete privacy policies, manage domains, assign analysts to projects, set access restrictions for guests, export data, and save repository versions.
+Analyst can select assigned policies, add/delete/update goals and scenarios, view details of goals and scenarios, update personal profiles, add/delete/update requirements, and view access control policies.
+Guest can view information with restrictions set by the project manager.
+Goal Specification and Management Module:
+Allows analysts to add, update, and delete goals.
+Provides templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
+Allows analysts to classify goals by policy/scenario, observable/unobservable, protection/vulnerability, and subject classification.
+Allows multiple subject classifications for each goal.
+Allows adding new classification types of goals.
+Allows analysts to request new classification types and project managers to create them.
+Provides traceability links between goals and policies.
+Displays occurrences of goals in policies and domains.
+Displays the number of different goals in a policy.
+Displays the context of a goal.
+Allows analysts to create and update goal keyword definitions.
+Allows analysts and guests to search goals according to analyst-chosen attributes.
+Allows analysts to view elements of a goal returned by a query.
+Provides a template to express goals in BNF grammar.
+Supports conflict identification and resolution.
+Allows analysts to view scenarios associated with individual scenarios.
+Provides dedicated sections for P3P and EPAL.
+Analysis Document Management Module:
+Allows project managers to add and edit analysis documents and their domains.
+Allows project managers to delete document domains.
+Allows project managers to create document types.
+Displays document names and links in alphabetical order within a specific domain.
+Allows project managers to create new domains and assign existing documents to them.
+Supports automatic multi-user analysis results comparison.
+Flesch Readability Module:
+Calculates the Flesch Readability Index for textual documents.
+Scenario Specification and Management Module:
+Allows analysts to add, update, and delete scenarios.
+Provides templates for scenarios.
+Allows analysts to classify scenarios by type, subject, and actor.
+Allows analysts to add and update scenario steps.
+Allows analysts to view the context of a scenario.
+Allows analysts to search scenarios according to analyst-chosen attributes.
+Allows analysts to view elements of a scenario returned by a query.
+Provides a template to express scenarios in BNF grammar.
+Supports conflict identification and resolution.
+Requirements Specification Module:
+Allows analysts to add, update, and delete requirements.
+Provides templates for requirements.
+Allows analysts to classify requirements by type, subject, and actor.
+Allows analysts to add and update requirement steps.
+Allows analysts to view the context of a requirement.
+Allows analysts to search requirements according to analyst-chosen attributes.
+Allows analysts to view elements of a requirement returned by a query.
+Provides a template to express requirements in BNF grammar.
+Supports conflict identification and resolution.
+Legal Compliance Module:
+Allows analysts to add, update, and delete legal compliance information.
+Provides templates for legal compliance information.
+Allows analysts to classify legal compliance information by type, subject, and actor.
+Allows analysts to add and update legal compliance steps.
+Allows analysts to view the context of legal compliance information.
+Allows analysts to search legal compliance information according to analyst-chosen attributes.
+Allows analysts to view elements of legal compliance information returned by a query.
+Provides a template to express legal compliance information in BNF grammar.
+Supports conflict identification and resolution.
+Requirements-level Access Control Analysis Framework (RACAF) Module:
+Supports access control analysis for requirements.
+Provides templates for access control policies.
+Allows analysts to classify access control policies by type, subject, and actor.
+Allows analysts to add and update access control policy steps.
+Allows analysts to view the context of an access control policy.
+Allows analysts to search access control policies according to analyst-chosen attributes.
+Allows analysts to view elements of an access control policy returned by a query.
+Provides a template to express access control policies in BNF grammar.
+Supports conflict identification and resolution.
+Non-Functional Requirements
+User Access Module:
+Secure storage of passwords.
+Secure login system.
+Analysis Document Management Module:
+Secure storage of documents.
+System:
+User-friendly interface.
+Efficient performance.
+Scalable architecture.
+Secure data storage and transmission.
+Reliable backup and recovery mechanisms.
+Comprehensive documentation.
+Easy to maintain and upgrade.
+Constraints
+User Access Module:
+Different access levels have different privileges.
+Guests have restricted access to information.
+Analysis Document Management Module:
+Project managers have control over document domains and types.
+System:
+Must comply with all applicable security and privacy regulations.
+Must be compatible with existing systems and technologies.
+Must be developed within budget and time constraints.

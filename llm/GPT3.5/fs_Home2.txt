@@ -1,0 +1,18 @@
+Title: DigitalHome Software Requirements Specification - HomeOwner Inc.
+
+Summary:
+The attached document, titled "2010 - home 1.3.pdf," is the Software Requirements Specification (SRS) for the development of a "Smart House" called DigitalHome (DH). It was created by the DigitalHomeOwner Division of HomeOwner Inc. The purpose of DigitalHome is to provide a home management system that integrates security, environmental and energy management, entertainment, and communications.
+
+The document begins with a change history section, highlighting the modifications made during the development process. It then includes a table of contents for easy navigation.
+
+The introduction section explains that DigitalHome is a prototype version aimed at assisting HomeOwner management in making business decisions regarding future commercial development. It clarifies that the SRS is not a comprehensive specification but rather a list of principal features. Additional detail and information can be found in the Digital Home Use Case Model document.
+
+The document provides team project information, including the roles of team members and the project schedule.
+
+The overall description section defines the product description and scope of Digital Home. It explains that the system allows users to manage devices controlling the home environment through a web interface. The prototype system is simulated, with no physical home or actual sensors and controllers.
+
+The users description section distinguishes between DigitalHome Users and DigitalHome Technicians. General users can monitor and control their home environment, while technicians are responsible for system setup and maintenance.
+
+Development constraints specify that the prototype version must be completed within twelve months. The development team consists of five engineers, and widely used technology and standards should be employed. Cost minimization and testing in a simulated environment are also addressed.
+
+The operational environment section mentions the requirement for an Internet Service Provider (ISP) and the capability of establishing a home web server. It also refers to the Home DH Gateway Device.

@@ -1,0 +1,17 @@
+Product Description:
+SPRAT is a web-based tool that supports requirements analysis, goal and scenario mining, and reconciliation for privacy and security policies. It provides a centralized repository for storing and managing goals, scenarios, and requirements, as well as a user access control system to ensure secure access to the system.
+
+Functional Requirements:
+
+User Access Management: The system shall have three access levels (administrator, project manager, and analyst) with different privileges and restrictions.
+Goal and Scenario Management: The system shall support the creation, deletion, and update of goals and scenarios, as well as the ability to view detailed information about each goal and scenario.
+Requirements Management: The system shall support the creation, deletion, and update of requirements, as well as the ability to view detailed information about each requirement.
+Access Control Management: The system shall have a user access control framework to restrict access to certain features and data based on user roles and permissions.
+Requirements Traceability: The system shall provide a requirements traceability matrix to graphically display the dependencies between requirements.
+Non-Functional Requirements/Constraints:
+
+Security and Privacy: The system shall maintain the security and privacy of all sensitive data, including user information, goals, scenarios, and requirements.
+Accuracy: The system shall provide accurate results and information to users.
+Performance: The system shall perform efficiently and effectively, with minimal downtime or errors.
+Usability: The system shall be easy to use and navigate, with an intuitive interface and clear documentation.
+Scalability: The system shall be scalable to accommodate future updates and enhancements.

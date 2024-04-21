@@ -1,0 +1,26 @@
+SPRAT: A Tool for Privacy and Security Requirements Analysis
+Product Description:
+
+The Security and Privacy Requirements Analysis Tool (SPRAT) is a software tool designed to assist analysts in the scenario and goal mining, reconciliation, and management processes. It aims to maintain a goal and scenario repository for use in continuing analyses of policies and other documents from which goals and scenarios can be derived.
+
+Functional Requirements:
+
+User Access Management: The system supports different user levels with varying access privileges.
+Goal Specification and Management: Analysts can add, edit, and delete goals, classify them, and view their occurrences in policies.
+Policy Management: Project managers can add, edit, and delete policies and assign them to domains.
+Flesch Readability Index Module: This module calculates the readability index of policy documents.
+Scenario Specification and Management: Analysts can add, edit, and delete scenarios and view their associated goals.
+Requirements Specification: The system supports the specification of requirements for a system.
+Legal Compliance: The system can be used to analyze policies for legal compliance.
+Requirements-level Access Control Analysis Framework (RACAF): This module supports RACAF functionalities.
+Non-Functional Requirements/Constraints:
+
+Secure storage of passwords.
+Secure login for users.
+Different access levels for different users.
+Prevention of bias during goal classification.
+Focus on high and medium priority requirements.
+Security and data protection.
+User-friendliness and ease of use.
+Reliability and performance.
+Scalability to handle large amounts of data.

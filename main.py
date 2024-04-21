@@ -11,12 +11,13 @@ def compute_rouge(human_summary, llm_summary):
     return scores
 
 if __name__ == "__main__":
-    human_summary = read_summary("manual/colorcast.txt")
-    llm_summary = read_summary("llm/Colorcast.txt")
+    human_summary = read_summary("manual/Home.txt")
+    llm_summary = read_summary("llm/Llama2/CoT_Home3.txt")
 
  
 
     rouge_scores = compute_rouge(human_summary, llm_summary)
     print("ROUGE Scores:", rouge_scores)
+
 
 

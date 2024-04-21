@@ -1,0 +1,21 @@
+Title: DigitalHome Software Requirements Specification - Summary
+
+Introduction:
+The document outlines the requirements for the development of a "Smart House" system called DigitalHome (DH) by the DigitalHomeOwner Division of HomeOwner Inc. It aims to provide a comprehensive home management system that integrates security, environmental and energy management, entertainment, and communications.
+
+Team Project Information:
+The project team consists of various roles, including a team leader, system analyst, system architect, planning manager, quality manager, and construction engineer. The schedule includes milestones such as need assessment, project launch, requirements, architecture, construction cycles, system testing, acceptance testing, and postmortem analysis.
+
+Overall Description:
+The product scope is focused on allowing home users to manage devices controlling the environment of their homes. Users interact with the system through a personal web page on the DigitalHome web server or a local home server. The system includes household devices, sensors, controllers, communication links, and a computer system for managing the components. The initial version is a limited prototype used for business decisions, and the actual home environment and devices are simulated.
+
+Users Description:
+The system targets two main user roles: DigitalHome Users and DigitalHome Technicians. DigitalHome Users can monitor and control their home environment through the system's capabilities. They are familiar with web interfaces and basic web operations. A Master user has additional privileges for system configuration. DigitalHome Technicians are responsible for setting up and maintaining the system. They have experience with the hardware, software, and web services associated with the system.
+
+Development Constraints:
+The prototype version of DigitalHome must be completed within twelve months. The development team consists of five engineers, and widely used hardware and software technology and standards are preferred. Cost minimization is important, and the system will be tested in a simulated environment. Major changes to the document require approval from the Director of the DigitalHomeOwner Division.
+
+Operational Environment:
+The system requires an Internet Service Provider (ISP), and it can establish an individual home web server hosted on a home computer. The web server enables interaction, control, storage of data and plans, user account management, and backup services. The document also mentions the use of a home DH gateway device.
+
+This summary provides an overview of the DigitalHome Software Requirements Specification, including its purpose, team information, product scope, user descriptions, development constraints, and operational environment.

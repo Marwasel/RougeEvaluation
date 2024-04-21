@@ -1,0 +1,23 @@
+The document titled "Security and Privacy Requirements Analysis Tool (SPRAT) Software Requirements Specification" provides an overview of the SPRAT tool and its module breakdown. The document was authored by Neha Jain, Dr. Annie I. Antón, Qingfeng He, William Stufflebeam, and Jack Frink.
+
+The introduction highlights the importance of aligning privacy and security policies with system requirements and functionality. It emphasizes the need for high-level goals and scenarios in the requirements engineering process and proposes the development of a tool to assist analysts in mining, reconciling, and managing goals and scenarios.
+
+The module breakdown section outlines the six main modules of SPRAT:
+
+User Access Module (UAM): Manages access levels and permissions for different user classes, including administrators, project managers, analysts, and guests.
+
+Goal Specification and Management Module (GSM): Supports goal management within the tool.
+
+Policy Management Module (PM): Supports policy management within the tool.
+
+Flesch Readability Index Module (FRE): Calculates the Flesch Readability Index of policy documents.
+
+Scenario Specification and Management Module (SSM): Supports scenario management within the tool.
+
+Requirements Specification Module (RS): Supports system requirements.
+
+The document then provides detailed module requirements for each module, starting with the User Access Module (UAM). It specifies functional requirements, their descriptions, origins, and priorities. For example, the UAM should support an administrator level with privileges such as creating user groups, managing passwords, and disabling access for old users.
+
+The document also includes information on priorities for requirements, distinguishing between high, medium, and low priority levels. High priority requirements are critical for system functionality and security.
+
+The content excerpted here focuses specifically on the User Access Module (UAM) and its functional requirements for different user levels: administrator, project manager, analyst, and guest. The requirements describe the privileges and actions each user level should be able to perform within the tool.

@@ -1,0 +1,17 @@
+This document outlines the requirements for a software tool called SPRAT (Security and Privacy Requirements Analysis Tool). SPRAT is designed to assist analysts in the process of scenario and goal mining, reconciliation, and management. The tool will maintain a repository of goals and scenarios for use in continuing analyses of policies and other documents.
+
+The document is divided into several sections:
+
+Introduction: This section provides an overview of SPRAT and its purpose.
+Module Breakdown: This section describes the six main modules of SPRAT: User Access Module, Goal Specification and Management Module, Policy Management Module, Flesch Readability Index Module, Scenario Specification and Management Module, Requirements Specification Module, Legal Compliance, and Requirements-level Access Control Analysis Framework (RACAF).
+Module Requirements: This section outlines the services to be provided by each module, including functional requirements, non-functional requirements, and security and privacy requirements.
+System Requirements: This section specifies the overall system requirements for SPRAT.
+Requirements Traceability Matrix: This section graphically displays the dependencies between requirements.
+Document Revision History: This section outlines the version history of the document.
+Appendix: This section contains a glossary of terms, an acknowledgement, and references.
+Key Points
+SPRAT is a tool for assisting analysts in the process of scenario and goal mining, reconciliation, and management.
+The tool will maintain a repository of goals and scenarios for use in continuing analyses of policies and other documents.
+SPRAT will have six main modules, each with its own specific set of requirements.
+The document outlines the functional, non-functional, and security and privacy requirements for each module.
+The document also includes a system requirements section, a requirements traceability matrix, a document revision history, and an appendix.

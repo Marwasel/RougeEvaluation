@@ -1,0 +1,13 @@
+Summary:
+
+The Security and Privacy Requirements Analysis Tool (SPRAT) is a software tool designed to address the misalignment and conflicts between security and privacy policies in web-based systems. It aims to ensure customer trust by aligning system requirements, policies, and functionality. SPRAT provides a comprehensive solution by incorporating high-level goals, scenarios, and requirements analysis.
+
+The tool consists of several modules, including the User Access Module (UAM), Goal Specification and Management Module, Policy Management Module, Flesch Readability Index Module, Scenario Specification and Management Module, Requirements Specification Module, Legal Compliance Module, and Requirements-level Access Control Analysis Framework (RACAF) Module.
+
+The functional requirements of SPRAT include supporting different access levels (Administrator, Project Manager, Analysts, and Guest) within the UAM module and managing permissions and restrictions accordingly. The tool facilitates goal management, policy management, scenario management, and requirements specification. It also calculates the Flesch Readability Index of policy documents.
+
+In addition to the functional requirements, SPRAT has non-functional requirements and constraints. The tool must provide accurate results, ensuring precision in goal and scenario management, as well as requirements analysis. It should exhibit high performance, responding promptly and efficiently, even with a large repository of data. Security is crucial, requiring restricted access, user authentication, and data encryption. Readability and flexibility are emphasized, promoting clear presentation of information and accommodating user-defined conditions. Compatibility, scalability, maintainability, usability, and stakeholder collaboration are also important aspects.
+
+Constraints include focusing on implementing the database and high and medium priority requirements for SPRAT, with specific attention to the RACAF module. Versioning and revision control, stakeholder collaboration, and comprehensive documentation with a glossary and bibliography are additional considerations.
+
+In summary, SPRAT is a robust tool that addresses security and privacy requirements for web-based systems. By aligning policies, goals, and requirements, it aims to enhance customer trust and ensure the effectiveness of security and privacy measures.

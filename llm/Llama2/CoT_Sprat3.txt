@@ -1,0 +1,23 @@
+Product Description:
+The SPRAT tool is a web-based platform designed to assist organizations in managing and analyzing their privacy and security policies. It provides a centralized repository for storing and tracking policies, as well as tools for evaluating and reporting on compliance.
+
+Functional Requirements:
+
+User Access Module: The system must support three access levels (administrator, project manager, and analyst) with different privileges and restrictions.
+Goal Specification and Management Module: The system must allow users to specify, classify, and prioritize goals and scenarios, and provide a repository for storing and tracking them.
+Policy Management Module: The system must allow users to create, edit, and delete policies, and provide a repository for storing and tracking them.
+Flesch Readability Index Module: The system must calculate the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module: The system must allow users to specify, classify, and prioritize scenarios, and provide a repository for storing and tracking them.
+Requirements Specification Module: The system must allow users to specify, classify, and prioritize requirements, and provide a repository for storing and tracking them.
+Legal Compliance Module: The system must provide a repository for storing and tracking legal documents and provide an assessment of compliance with legal requirements.
+Requirements-level Access Control Analysis Framework Module: The system must provide a framework for analyzing access control requirements and assessing compliance with access control policies.
+Non-Functional Requirements/Constraints:
+
+Security: The system must ensure the confidentiality, integrity, and availability of all sensitive data.
+Performance: The system must be able to handle a large volume of users and data without any significant performance degradation.
+Accuracy: The system must ensure the accuracy of the data and the goals and scenarios derived from it.
+Scalability: The system must be able to scale up or down as needed to accommodate changes in the number of users and data.
+Usability: The system must be user-friendly and easy to use.
+Maintainability: The system must be easy to maintain and update.
+Interoperability: The system must be able to integrate with other systems and tools.
+Compatibility: The system must be compatible with different platforms and devices.

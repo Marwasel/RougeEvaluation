@@ -1,0 +1,18 @@
+This document outlines the requirements for developing a "Smart House" called DigitalHome (DH), which allows residents to easily manage daily lives through security, environmental management (temperature, humidity, and lighting), entertainment, and communications.
+
+Key Features:
+
+Thermostat Management: Allows users to monitor and control temperature from anywhere, set temperatures between 60°F and 80°F, schedule up to 24 one-hour settings per day for every day of the week, and manage up to eight thermostats.
+Humidistat Management: Allows users to monitor and control humidity from anywhere, set humidity levels between 30% and 60%, schedule up to 24 one-hour settings per day for every day of the week, and manage up to eight humidistats.
+Security System: Consists of contact sensors and alarms, manages up to fifty door and window contact sensors, and activates both sound and light alarms upon a security breach.
+Appliance Management: Allows users to turn small appliances and lighting units on or off, manage up to one hundred 115-volt, 10-amp power switches, and view the on/off state of appliances.
+Planning and Reporting: Enables users to set preset home parameters for specific time periods, create monthly plans with daily environmental settings, and view monthly reports with average, maximum, and minimum temperature and humidity values, security breach times, and periods of system inactivity.
+Other Requirements:
+
+Performance: Environmental conditions updated every 2 seconds, sensor data acquisition rate of 10 Hz, and sensor/controller devices within 1000 feet of the master control device.
+Reliability: High reliability with no more than 1 failure per 10,000 hours of operation, backup and recovery mechanisms, and exception handling.
+Safety: High system reliability to prevent failures affecting safety of home dwellers.
+Security: Secure user accounts with authentication and information encryption.
+Maintenance: Use of documentation, abstraction, information hiding, module independence, IEEE standards, and HomeOwner Coding Standard.
+Business Rules: Up-to-date documentation, object-oriented development using UML 2.0, and online user documentation.
+

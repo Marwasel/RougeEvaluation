@@ -1,0 +1,19 @@
+Description
+The document describes the "Security and Privacy Requirements Analysis Tool (SPRAT)" software. SPRAT is designed to assist analysts in the scenario and goal mining, reconciliation, and management processes. It aims to maintain a goal and scenario repository for use in continuing analyses of policies and other documents.
+
+Functional Requirements
+User Access Module (UAM): Defines access levels and permissions for different user classes (administrator, project manager, analyst, guest).
+Goal Specification and Management Module (GSM): Supports goal management, including adding, editing, deleting, and classifying goals.
+Policy Management Module (ADM): Supports policy management, including adding, editing, deleting, and assigning domains to policies.
+Flesch Readability Module (FRE): Calculates the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module (SSM): Supports scenario management, including adding, editing, deleting, and viewing scenarios.
+Requirements Specification Module (RS): Supports the requirements for a system.
+Legal Compliance Module (LC): Ensures compliance with legal requirements.
+Requirements-level Access Control Analysis Framework Module (RACAF): Supports RACAF with functionalities like automatic multi-user analysis results comparison.
+Non-Functional Requirements
+Security: The system shall provide secure storage of passwords and allow secure login for users.
+Data Access: Different users shall have different access levels to projects and information within the system.
+Performance: The system shall provide efficient performance for various functionalities.
+Constraints
+Other analysts' classifications should be withheld until the given analyst completes their classification to prevent bias.
+The system should support automatic multi-user analysis results comparison upon the project manager's request.

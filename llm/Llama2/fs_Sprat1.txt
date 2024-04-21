@@ -1,0 +1,55 @@
+Document Overview:
+
+The document provides a detailed description of the modules and requirements for the Security and Privacy Requirements Analysis Tool (SPRAT). The tool is designed to assist analysts in the scenario and goal mining, reconciliation, and management processes. It aims to maintain a goal and scenario repository for use in continuing analyses of policies and other documents.
+
+
+High Priority Requirements (must be satisfied):
+
+User Access Module:
+Administrator level with privileges such as creating user groups, project managers, analysts, and guests, resetting user passwords, and disabling access for old users.
+Project manager level with privileges such as inserting and deleting privacy policies, creating/adding new domains of privacy policies, assigning analysts to user groups, and exporting data to an XML file.
+Analyst level with privileges such as selecting assigned privacy policies, adding, deleting, and updating goals, scenarios, requirements, and access control policies.
+Goal Specification and Management Module:
+Ability to add, delete, and update goals and scenarios.
+View details of goals and scenarios in the repository.
+Policy Management Module:
+Ability to create, delete, and update policies.
+View details of policies in the repository.
+Flesch Readability Index Module:
+Calculate the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module:
+Ability to add, delete, and update scenarios.
+View details of scenarios in the repository.
+Requirements Specification Module:
+Ability to add, delete, and update requirements.
+View details of requirements in the repository.
+Medium Priority Requirements (important and desirable, but will not cause the system to fail if not satisfied):
+
+User Access Module:
+Ability to create user groups such as NCSU TPP.org, GT TPP.org.
+Ability to assign user groups and individual analysts to projects.
+Ability to set restrictions on access to certain kinds of information for guests.
+Goal Specification and Management Module:
+Ability to view the details of goals and scenarios in the repository.
+Policy Management Module:
+Ability to view details of policies in the repository.
+Flesch Readability Index Module:
+Ability to calculate the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module:
+Ability to view details of scenarios in the repository.
+Requirements Specification Module:
+Ability to view details of requirements in the repository.
+Low Priority Requirements (desirable but not necessary, can be postponed for implementation in later versions of the system):
+
+User Access Module:
+Ability to reset user passwords.
+Goal Specification and Management Module:
+Ability to add, delete, and update goals and scenarios.
+Policy Management Module:
+Ability to create, delete, and update policies.
+Flesch Readability Index Module:
+Ability to calculate the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module:
+Ability to add, delete, and update scenarios.
+Requirements Specification Module:
+Ability to add, delete, and update requirements.
