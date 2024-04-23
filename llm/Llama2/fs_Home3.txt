@@ -1,24 +1,22 @@
-Digital Home Project Summary:
+Summary:
 
-The Digital Home project is a "Smart Home" system that allows home residents to easily manage their daily lives by providing a lifestyle that brings together security, environmental and energy management, entertainment, and communications. The system is designed to be user-friendly and to integrate with various devices and systems in the home.
+The DigitalHome Software Requirements Specification document outlines the requirements for the development of a "Smart House" called DigitalHome (DH), which is a home management system that allows home residents to easily manage their daily lives by providing for a lifestyle that brings together security, environmental and energy management (temperature, humidity, and lighting), entertainment, and communications.
 
 Requirements:
 
-Product Description and Scope:
-The Digital Home system is a prototype version that will allow home users to manage devices that control the environment of a home through a web-ready device.
-The system will be tested in a simulated environment, and the prototype will be used by HomeOwner management to make business decisions about the future commercial development of DigitalHomeOwner products and services.
-User Description:
-The system will have different types of users, including the general user, the master user, and the DigitalHome technician.
-The general user will be able to use the system to monitor and control the environment, manage user accounts, and provide backup services.
-The master user will have the same rights as the general user, but will also be able to change the configuration of the system.
-The DigitalHome technician will have rights beyond the general user, including the ability to set up and make changes to the system, and to start and stop the system.
-Functional Requirements:
-The system must provide a user-friendly interface for managing the home environment, including temperature, humidity, lighting, and security.
-The system must be able to integrate with various devices and systems in the home, such as thermostats, humidistats, lighting systems, and security systems.
-The system must provide real-time monitoring and control of the home environment, including the ability to receive alerts and notifications when certain conditions are met.
-The system must provide backup services, such as storing data from the system and restoring it in the event of a failure.
-Other Non-Functional Requirements:
-The system must be cost-effective and provide a good value to the homeowner.
-The system must be designed to be reliable and fault-tolerant, with minimal downtime and maintenance required.
-The system must be secure, with protections in place to prevent unauthorized access and data breaches.
-The system must be easy to use and set up, with minimal training required.
+Product Description and Scope
+The DigitalHome system is a web-based system that allows users to monitor and control the environment in their home.
+The system is intended for use by home users and technicians.
+The system will manage devices that control temperature, humidity, security, and power to small appliances and lighting units.
+Users Description
+The general user shall be able to use the DH system capabilities to monitor and control the environment in their home.
+The general user is familiar with the layout of their home and the location of sensor and control devices.
+A Master user will be designated, who shall be able to change the configuration of the system.
+Development Constraints
+The development team will use widely used, accepted, and available hardware and software technology and standards.
+The cost of DigitalHome elements (sensors, controllers, server, tools, etc.) shall be minimized.
+The system will be tested in a simulated environment.
+Operational Environment
+The system shall require an Internet Service Provider (ISP).
+The DH Home Web Server shall provide interaction with and control of the DH elements, storage of DH plans and data, and ability to establish and maintain DH User Accounts.
+The Home DH Gateway Device shall provide communication with all the DigitalHome devices and connect with a broadband Internet connection.

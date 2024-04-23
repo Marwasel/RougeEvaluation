@@ -1,41 +1,36 @@
-Document Description: This document specifies the requirements for a tool that will assist analysts in the scenario and goal mining, reconciliation, and management processes. The tool will provide strong management, flexible user-defined conditions, and support for automatic multi-user analysis results comparison.
+Description of the System:
 
-User Access Module (UAM)
+The SPRAT is a tool that supports the analysis of security and privacy requirements for web-based systems. It provides various modules for managing user access, goals, scenarios, requirements, policies, and legal compliance. The system also supports RACAF and has features such as access control policies, user groups, and project managers. The goal of the system is to provide a comprehensive tool for analyzing security and privacy requirements and ensuring compliance with legal regulations.
 
-The system shall support three access levels: Administrator, Project Manager, and Analyst.
-The Administrator shall have the following privileges:
-Create user groups (e.g., NCSU TPP.org, GT TPP.org)
-Create project managers, analysts, and guests
-Reset user passwords when needed
-Disable access for old project managers, analysts, and guests
-The Project Manager shall have the following privileges:
-Insert a new privacy policy to the repository
-Delete a privacy policy from the repository
-Create/add a new domain of privacy policies (e.g., Healthcare, financial, e-commerce, federal agency, etc.)
-Assign analysts to user groups created by the administrator
-Assign user groups and individual analysts to projects
-Set restrictions on access to certain kinds of information for guests
-Export data from a project to an XML file
-Save the current version of the repository for evolution analysis
-The Analyst shall have the following privileges:
-Select a privacy policy that has been assigned to them by the project manager
-Add, delete, and update goals
-Add, delete, and update scenarios
-View details of any goal or scenario in the repository (e.g., ID, description, source, keyword, taxonomy, actor, occurrence, relevant policy)
-Update personal profile (e.g., name, ID, contact information, user groups, passwords)
-Add, delete, and update requirements
-Add, delete, and update access control policies (e.g., subject, object, action)
-View access control policies
 
+User Access Module:
+Support three access levels (Administrator, Project Manager, Analyst)
+Permissions and restrictions for each access level
+Ability to create user groups and assign users to groups
+Ability to reset user passwords and disable access for old users
 Goal Specification and Management Module:
+Support goal management in the tool
 Ability to add, delete, and update goals
-Ability to view goal details such as ID, description, source, keyword, taxonomy, actor, and occurrence
+Ability to view goal details such as ID, description, source, keyword, taxonomy, actor, occurrence, and relevant policy
+Policy Management Module:
+Support policy management in the tool
+Ability to add, delete, and update policies
+Ability to view policy details such as ID, description, source, keyword, taxonomy, actor, occurrence, and relevant goal
+Flesch Readability Index Module:
+Calculate the Flesch Readability Index of policy documents
 Scenario Specification and Management Module:
+Support scenario management in the tool
 Ability to add, delete, and update scenarios
-Ability to view scenario details such as ID, description, source, keyword, taxonomy, actor, and occurrence
+Ability to view scenario details such as ID, description, source, keyword, taxonomy, actor, occurrence, and relevant goal
 Requirements Specification Module:
+Support requirements specification in the tool
 Ability to add, delete, and update requirements
-Ability to view requirement details such as ID, description, source, keyword, taxonomy, actor, and occurrence
-Security and Privacy Requirements:
-Compliance with security and privacy policies
-Access control policies for subjects, objects, and actions
+Ability to view requirement details such as ID, description, source, keyword, taxonomy, actor, occurrence, and relevant goal
+Legal Compliance Module:
+Support legal compliance in the tool
+Ability to add, delete, and update legal compliance information
+Ability to view legal compliance details such as ID, description, source, keyword, taxonomy, actor, occurrence, and relevant goal
+Requirements-level Access Control Analysis Framework (RACAF) Module:
+Support RACAF in the tool
+Ability to add, delete, and update access control policies such as subject, object, action
+Ability to view access control policies

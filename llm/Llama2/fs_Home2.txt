@@ -1,16 +1,46 @@
-Description: This document specifies the requirements for the development of a "Smart House" called DigitalHome (DH), which will allow home residents to easily manage their daily lives by providing a lifestyle that brings together security, environmental, and energy management.
-
-Key Features:
-
-Product Description and Scope: The DigitalHome system will allow users to monitor and control the environment in their home through a web-ready device.
-Users Description: The system will have two types of users: General Users and Master Users. General Users will be able to use the system to monitor and control the environment, while Master Users will have additional rights to change the configuration of the system.
-Development Constraints: The development team will employ widely used and available hardware and software technology and standards. The cost of DigitalHome elements will be minimized, and the system will be tested in a simulated environment.
-Operational Environment:
-
-The system will require an Internet Service Provider (ISP) and a home web server hosted on a home computer.
-The DH Gateway device will provide communication with all DigitalHome devices and connect with a broadband Internet connection.
-Other Non-Functional Requirements:
-
-Performance Requirements: The system will be designed to perform reliably and efficiently, with fast response times and minimal downtime.
-Security Requirements: The system will have robust security features to protect against unauthorized access and data breaches.
-Maintenance Requirements: The system will be designed for easy maintenance and updates.
+Introduction
+The document specifies the requirements for the development of a "Smart House" called DigitalHome.
+DigitalHome is a home management system that allows home residents to manage their daily lives by providing a lifestyle that brings together security, environmental and energy management, entertainment, and communications.
+The system will consist of household devices, sensors and controllers for the devices, communication links between the components, and a computer system to manage the components.
+Team Project Information
+The team consists of five engineers, and the DigitalHomeOwner Director will provide management and communication support.
+The development process will be specified by Digital HomeOwner Inc.
+The project will employ widely used, accepted, and available hardware and software technology and standards.
+The cost of DigitalHome elements should be minimized, and the development team will describe their efforts to minimize costs in the final project report.
+Overall Description
+The Digital Home system is a system that will allow a home user to manage devices that control the environment of a home through a personal web page on the DigitalHome web server or on a local home server.
+The product is based on the Digital Home High Level Requirements Definition and is intended as a prototype for business decisions about future development of a commercial product.
+The scope of the project will be limited to the management of devices which control temperature, humidity, security, and power to small appliances and lighting units, through the use of a web-ready device.
+The prototype DH software system will be situated in a simulated environment with no actual physical home and all sensors and controllers will be simulated.
+Functional Requirements
+General Requirements:
+The system shall allow users to monitor and control the environment in their home.
+The system shall provide users with the ability to change the configuration of the system.
+Thermostat Requirements:
+The system shall allow users to adjust the temperature in their home.
+Humidistat Requirements:
+The system shall allow users to adjust the humidity in their home.
+Security System Requirements:
+The system shall allow users to arm and disarm the security system.
+The system shall provide users with the ability to set up and receive alerts and notifications.
+Appliance Management Requirements:
+The system shall allow users to control small appliances and lighting units.
+DH Planning and Reporting Requirements:
+The system shall provide users with the ability to create and manage plans.
+The system shall provide users with the ability to view reports on energy usage and cost.
+Other Non-Functional Requirements
+Performance Requirements:
+The system shall respond to user input within 2 seconds.
+The system shall be able to handle multiple user requests simultaneously.
+Reliability:
+The system shall be available for use at all times.
+The system shall automatically recover from any failures or errors.
+Safety Requirements:
+The system shall not pose a risk to the safety of users or the home.
+Security Requirements:
+The system shall protect user data and prevent unauthorized access.
+Maintenance Requirements:
+The system shall provide users with the ability to perform routine maintenance tasks.
+Business Rules:
+The system shall comply with all relevant laws and regulations.
+The system shall follow industry standards for security and data protection.

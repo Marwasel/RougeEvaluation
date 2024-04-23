@@ -1,0 +1,9 @@
+The document titled "DigitalHome Software Requirements Specification" provides an overview of the requirements for developing a "Smart House" called DigitalHome (DH). The DH system is a home management system that integrates security, environmental and energy management, entertainment, and communication. It consists of household devices, sensors, controllers, communication links, and a computer system. The document outlines the project's change history, team information, and overall description.
+
+The product description states that DigitalHome will be a limited prototype version used for making business decisions regarding future development. It focuses on managing temperature, humidity, security, and power to appliances and lighting units through a web interface. The scope is limited to a simulated environment without physical homes.
+
+The users of DigitalHome are divided into general users and technicians. General users can monitor and control their home environment through the DH system, while technicians are responsible for system setup and maintenance. The development constraints include a 12-month completion timeline, a five-engineer team, and the use of widely available hardware and software technology.
+
+The operational environment section mentions the requirement of an Internet Service Provider (ISP) for the home system and the capability of establishing an individual home web server. It also highlights the DH gateway device for communication.
+
+The document provides an outline of functional and non-functional requirements, including performance, reliability, safety, security, maintenance, and business rules. It concludes with a glossary and references section.

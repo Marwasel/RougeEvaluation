@@ -1,38 +1,36 @@
-Overview:
-
-This document specifies the requirements for developing a "Smart House" system called DigitalHome (DH). The DH system allows home residents to manage their daily lives by controlling their home environment (temperature, humidity, security, lighting, and appliances) through a web interface. This initial version is a limited prototype for business decision-making about future commercial development.
+Digital Home Software Requirements Specification (SRS) Summary
+This document outlines the requirements for the development of a "Smart House" system called DigitalHome (DH) by the DigitalHomeOwner Division of HomeOwner Inc. The system allows users to manage their home's environment (temperature, humidity, security, and power to small appliances and lighting units) through a web interface.
 
 Key Features:
 
-Temperature control: Programmable thermostats allow users to set and monitor temperatures in different rooms.
-Humidity control: Programmable humidistats allow users to set and monitor humidity levels.
-Security system: Contact sensors and alarms provide security monitoring and breach notifications.
-Appliance management: Users can control power to small appliances and lighting units.
-Planning and reporting: Users can set daily and monthly schedules for various parameters and access historical reports.
-Technical Details:
+Thermostat Control: Users can monitor and control temperature in different rooms using programmable thermostats.
+Humidistat Control: Users can monitor and control humidity levels in different rooms using programmable humidistats.
+Security System: Contact sensors and security alarms provide protection against unauthorized entry.
+Appliance Management: Users can turn on/off small appliances and lighting units using programmable power switches.
+Planning and Reporting: Users can create monthly plans to set environmental parameters for different time periods and access reports on past usage.
+Target Audience:
 
-The system uses wireless communication between sensors, controllers, and the master control unit (DH Gateway Device).
-The DH Gateway Device connects to the home's broadband internet connection.
-The system utilizes web-based interfaces for user interaction and control.
-The prototype DH software system will be situated in a simulated environment.
-Target Users:
+Homeowners who want to manage their home's environment remotely.
+Businesses looking to develop smart home products.
+Development Constraints:
 
-General users with basic web experience and familiarity with their home layout.
-Master users with additional privileges for configuration and user account management.
-DH Technicians responsible for system setup, maintenance, and configuration changes.
-Constraints:
+Prototype version to be completed within 12 months.
+Development team consists of 5 engineers.
+Use widely available hardware and software.
+Minimize development costs.
+System will be tested in a simulated environment.
+Technical Requirements:
 
-The prototype version must be completed within 12 months.
-The development team consists of five engineers.
-The project will use widely available and accepted hardware and software technology and standards.
-The cost of DH elements should be minimized.
-The system will be tested in a simulated environment.
-Major changes to this document require approval from the Director of the DigitalHomeOwner Division.
-Additional Notes:
+System requires an internet connection (cable modem or DSL).
+Uses a home web server to interact with DH elements and store data.
+Uses a DH Gateway device to communicate with sensors and controllers.
+Uses wireless communication to connect with sensors and controllers.
+Requires various environmental controllers and sensors (thermostats, humidistats, contact sensors, security alarms, and power switches).
+Non-Functional Requirements:
 
-The document references a supplementary document, the Digital Home Use Case Model, for additional details.
-The system should be compatible with a centralized HVAC system.
-The system incorporates backup and recovery mechanisms.
-The system utilizes security features like Transport Layer Security for user authentication and information encryption.
-The system adheres to HomeOwner document format and coding standards.
-User documentation is provided online, including FAQs, parameter setting explanations, and DH Planner instructions.
+High reliability with minimal failures.
+Backup and recovery mechanisms.
+Exception handling for errors and exceptional conditions.
+Secure user authentication and information encryption.
+Easy system maintenance.
+User documentation available online.

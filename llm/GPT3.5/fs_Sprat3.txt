@@ -1,26 +1,22 @@
 Title: Security and Privacy Requirements Analysis Tool (SPRAT) - Software Requirements Specification
 
 Summary:
-The document "2004 - sprat.pdf" is a Software Requirements Specification for the Security and Privacy Requirements Analysis Tool (SPRAT). It provides an overview of the tool's purpose, modules, and requirements. The document was authored by Neha Jain, Dr. Annie I. Antón, Qingfeng He, William Stufflebeam, and Jack Frink.
+The document titled "Security and Privacy Requirements Analysis Tool (SPRAT) - Software Requirements Specification" provides an overview of SPRAT, a tool designed to address the misalignment and conflicts between security and privacy policies in web-based systems. The document, dated July 2004, outlines the purpose, modules, and requirements of SPRAT.
 
 Introduction:
-The document highlights the importance of integrating security and privacy policies into web-based systems from the beginning, as misalignment and conflicts can lead to customer mistrust. It emphasizes the need for high-level goals and scenarios in the requirements analysis process to ensure completeness, readability, and conflict detection.
+The document highlights the importance of aligning security and privacy policies with system requirements and functionality. It emphasizes the need for high-level goals and scenarios to ensure completeness, readability, and conflict detection. The tool aims to assist analysts in mining, reconciling, and managing goals and scenarios derived from policies and other documents.
 
 Module Breakdown:
-The SPRAT tool consists of six main modules:
+SPRAT consists of six main modules:
 
-User Access Module (UAM): Manages access levels and permissions for different user classes.
-Goal Specification and Management Module (GSM): Supports goal management within the tool.
-Policy Management Module (PM): Supports policy management within the tool.
-Flesch Readability Index Module (FRE): Calculates the Flesch Readability Index of policy documents.
-Scenario Specification and Management Module (SSM): Supports scenario management within the tool.
-Requirements Specification Module (RS): Supports the requirements for a system.
-Legal Compliance (LC): Ensures legal compliance.
-Requirements-Level Access Control Analysis Framework Module (RACAF): Defines functional requirements for RACAF.
-P3P Module: Supports P3P (Platform for Privacy Preferences) integration.
+User Access Module: Manages access levels and permissions for different user classes.
+Goal Specification and Management Module: Supports goal management within the tool.
+Policy Management Module: Supports policy management within the tool.
+Flesch Readability Index Module: Calculates the readability index of policy documents.
+Scenario Specification and Management Module: Supports scenario management within the tool.
+Requirements Specification Module: Supports system requirements.
 Module Requirements:
-The document outlines the functional requirements for each module. It includes the purpose, description, origin, and priority of each requirement. The requirements are categorized into high, medium, and low priority levels based on discussions with stakeholders.
+The document outlines the services provided by each module and their functional requirements. It categorizes requirements into high, medium, and low priority levels based on stakeholder discussions. The User Access Module is detailed, specifying access levels and corresponding permissions for administrators, project managers, analysts, and guests.
 
-User Access Module (UAM):
-The UAM section defines three access levels (Administrator, Project Manager, Analysts) and their respective privileges and restrictions.
-
+Summary:
+The document introduces SPRAT, a tool designed to address the misalignment between security and privacy policies in web-based systems. It highlights the significance of high-level goals and scenarios in requirements analysis and emphasizes the need for a tool to facilitate goal and scenario mining, reconciliation, and management. The document provides an overview of the tool's modules, their functionalities, and the associated requirements. It concludes by mentioning the priority levels assigned to requirements and the focus on implementing the database and high/medium priority requirements for SPRAT, including the Requirements-level Access Control Analysis Framework (RACAF).

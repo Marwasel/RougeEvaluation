@@ -1,50 +1,24 @@
-Document Title: Security and Privacy Requirements Analysis Tool (SPRAT) Software Requirements Specification
+System Description:
 
-Overview:
-This document specifies the software requirements for the Security and Privacy Requirements Analysis Tool (SPRAT) to support the analysis of policies and other documents to derive goals and scenarios. The tool aims to maintain a goal and scenario repository for use in continuing analyses of policies and other documents. The document outlines the modules and functional requirements for the tool, including the User Access Module, Goal Specification and Management Module, Policy Management Module, Flesch Readability Index Module, Scenario Specification and Management Module, Requirements Specification Module, and Legal Compliance Module.
+The SPRAT (Security and Privacy Requirements Analysis Tool) is a tool that aims to assist analysts, chief privacy officers (CPO), policy analysts, and auditors in the scenario and goal mining, reconciliation, and management processes. It will provide a goal and scenario repository for use in continuing analyses of policies and other documents from which goals and scenarios can be derived. The tool will be designed to support several other tools and will be developed using layers.
 
-Key Requirements:
-
-User Access Module:
-Supports three access levels (Administrator, Project Manager, and Analyst)
-Permissions and restrictions for each access level
-Ability to create user groups and assign users to groups
-Goal Specification and Management Module:
-Supports goal management and classification
-Ability to add, delete, and update goals
-Ability to view goal details and relevant policies
-Policy Management Module:
-Supports policy management and repository
-Ability to add, delete, and update policies
-Ability to view policy details and relevant goals
-Flesch Readability Index Module:
-Calculates the Flesch Readability Index of policy documents
-Ability to view readability scores and relevant policies
-Scenario Specification and Management Module:
-Supports scenario management and repository
-Ability to add, delete, and update scenarios
-Ability to view scenario details and relevant goals
-Requirements Specification Module:
-Supports requirements specification and management
-Ability to add, delete, and update requirements
-Ability to view requirement details and relevant scenarios
-Legal Compliance Module:
-Supports legal compliance and repository
-Ability to add, delete, and update legal documents
-Ability to view legal document details and relevant policies
-Priorities:
-
-High Priority Requirements:
 
 User Access Module (UAM)
-Goal Specification and Management Module (GSM)
-Policy Management Module (PMM)
-Requirements Specification Module (RS)
-Legal Compliance Module (LCM)
-Medium Priority Requirements:
-
-Scenario Specification and Management Module (SSM)
-Flesch Readability Index Module (FRI)
-Low Priority Requirements:
-
-Access Control Analysis Framework (RACAF)
+FR-UA 1: Support administrator level with privileges to create user groups, reset user passwords, and disable access for old users.
+FR-UA 2: Support project manager level with privileges to insert/delete privacy policies, create/add new domains, assign analysts to user groups, and assign user groups and individual analysts to projects.
+FR-UA 3: Support analyst level with privileges to select privacy policies, add/delete/update goals, add/delete/update scenarios, and view details of goals and scenarios.
+Goal Specification and Management Module
+FR-GSM 1: Support goal management in the tool.
+Policy Management Module
+FR-PM 1: Support policy management in the tool.
+Flesch Readability Index Module
+FR-FRI 1: Support requirements that calculate the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module
+FR-SSM 1: Support scenario management in the tool.
+Requirements Specification Module
+FR-RS 1: Support the requirements for a system.
+Legal Compliance
+FR-LC 1: Support legal compliance requirements.
+Requirements-level Access Control Analysis Framework (RACAF) module
+FR-RACAF 1: Support RACAF requirements.
+The document also includes a detailed description of each module, functional requirements, non-functional requirements, and a requirements traceability 

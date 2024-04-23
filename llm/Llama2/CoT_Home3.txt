@@ -1,0 +1,21 @@
+Product Description:
+The Digital Home system is a home management system that allows home residents to easily manage their daily lives by providing for a lifestyle that brings together security, environmental and energy management (temperature, humidity and lighting), entertainment, and communications. The system consists of household devices (e.g., a heating and air conditioning unit, a security system, and small appliances and lighting units, etc.), sensors and controllers for the devices, communication links between the components, and a computer system, which will manage the components.
+
+Functional Requirements:
+
+The system must allow users to monitor and control the environment in their home.
+The system must allow users to manage devices that control temperature, humidity, security, and power to small appliances and lighting units.
+The system must have a web-ready device that allows users to interact with the system.
+The system must have a user-friendly interface that allows users to easily navigate and control the system.
+The system must have the capability to establish an individual home web server hosted on a home computer.
+
+Non-Functional Requirements/Constraints:
+
+The system must be completed within 12 months of inception.
+The development team will consist of five engineers.
+The system will use widely used, accepted, and available hardware and software technology and standards.
+The cost of Digital Home elements (sensors, controllers, server, tools, etc.) must be minimized.
+The system will be tested in a simulated environment.
+Major changes to the document (e.g., changes in requirements) must be approved by the Director of the DigitalHomeOwner Division.
+The system must require an Internet Service Provider (ISP).
+The system must have the capability to establish an individual home web server hosted on a home computer.
