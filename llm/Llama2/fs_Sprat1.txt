@@ -1,20 +1,49 @@
-The document is a "Security and Privacy Requirements Analysis Tool (SPRAT)" software requirements specification, which is a tool that helps analysts in the scenario and goal mining, reconciliation, and management processes. The document outlines the various modules and functional requirements of the tool, as well as the non-functional requirements and security and privacy requirements.
+Document Title: Security and Privacy Requirements Analysis Tool (SPRAT) Software Requirements Specification
 
-The functional requirements of the tool include:
+Document Date: July 12, 2004
 
-User Access Module: This module manages access levels and permissions for each class of user, with three access levels - administrator, project manager, and analyst.
-Goal Specification and Management Module: This module supports goal management in the tool.
-Policy Management Module: This module supports policy management in the tool.
-Flesch Readability Index Module: This module calculates the Flesch Readability Index of policy documents.
-Scenario Specification and Management Module: This module supports scenario management in the tool.
-Requirements Specification Module: This module supports the requirements for a system.
-The non-functional requirements of the tool include:
+Authors: Neha Jain, Dr. Annie I. Antón, Qingfeng He, William Stufflebeam, Jack Frink
 
-Accuracy: The tool must provide accurate results.
-Performance: The tool must perform well and respond quickly to user requests.
-Security: The tool must ensure the security of all sensitive data.
-The security and privacy requirements of the tool include:
+Project Team:
 
-Access control: The tool must provide strong access control mechanisms to ensure that only authorized users can access the system and its data.
-Data encryption: The tool must encrypt sensitive data to protect it from unauthorized access.
-Privacy policies: The tool must support the development and management of privacy policies.
+Project Manager: Dr. Annie I. Antón
+PGMT Developer: Qingfeng He
+SMaRT Developer: Neha Jain
+Project Sponsor: Dr. Annie I. Antón
+Modules:
+
+User Access Module (UAM)
+Goal Specification and Management Module (GSM)
+Policy Management Module (PM)
+Flesch Readability Index Module (FRI)
+Scenario Specification and Management Module (SSM)
+Requirements Specification Module (RS)
+Legal Compliance Module (LC)
+Requirements-level Access Control Analysis Framework Module (RACAF)
+Module Breakdown:
+
+UAM: User Access Module (3 access levels: Administrator, Project Manager, Analyst)
+GSM: Goal Specification and Management Module (supports goal management)
+PM: Policy Management Module (supports policy management)
+FRI: Flesch Readability Index Module (calculates Flesch Readability Index of policy documents)
+SSM: Scenario Specification and Management Module (supports scenario management)
+RS: Requirements Specification Module (supports requirements specification)
+LC: Legal Compliance Module (ensures legal compliance)
+RACAF: Requirements-level Access Control Analysis Framework Module (supports access control analysis)
+Requirements:
+
+High Priority: Critical and must be satisfied.
+Medium Priority: Important and desirable, but not critical.
+Low Priority: Desirable but not necessary.
+Functional Requirements:
+
+FR-UA 1: Support administrator level.
+FR-UA 2: Support project manager level.
+FR-UA 3: Support analyst level.
+FR-UA 4: Support user access control.
+Non-Functional Requirements:
+
+NFR-UA 1: Accuracy.
+NFR-UA 2: Performance.
+NFR-UA 3: Security.
+NFR-UA 4: Privacy.

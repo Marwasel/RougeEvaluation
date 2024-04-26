@@ -11,8 +11,8 @@ def compute_rouge(human_summary, llm_summary):
     return scores
 
 if __name__ == "__main__":
-    human_summary = read_summary("manual/Home.txt")
-    llm_summary = read_summary("llm/Llama2/fs_Home3.txt")
+    human_summary = read_summary("manual/Sprat.txt")
+    llm_summary = read_summary("llm/GPT3.5/CoT_Sprat3.txt")
 
  
 

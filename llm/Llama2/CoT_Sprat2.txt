@@ -1,17 +1,31 @@
-Product Description:
-SPRAT is a web-based tool that supports requirements analysis, goal and scenario mining, and reconciliation for privacy and security policies. It provides a centralized repository for storing and managing goals, scenarios, and requirements, as well as a user access control system to ensure secure access to the system.
+Product Summary:
+
+The Security and Privacy Requirements Analysis Tool (SPRAT) is a software tool designed to assist organizations in the analysis, specification, and management of security and privacy requirements for web-based systems. SPRAT provides a comprehensive platform for managing the entire requirements lifecycle, from initial goal and scenario definition to final requirements traceability and documentation.
 
 Functional Requirements:
 
-User Access Management: The system shall have three access levels (administrator, project manager, and analyst) with different privileges and restrictions.
-Goal and Scenario Management: The system shall support the creation, deletion, and update of goals and scenarios, as well as the ability to view detailed information about each goal and scenario.
-Requirements Management: The system shall support the creation, deletion, and update of requirements, as well as the ability to view detailed information about each requirement.
-Access Control Management: The system shall have a user access control framework to restrict access to certain features and data based on user roles and permissions.
-Requirements Traceability: The system shall provide a requirements traceability matrix to graphically display the dependencies between requirements.
+User Access Management: SPRAT will have an accessible user interface that allows users to log in and access the tool.
+Goal and Scenario Management: SPRAT will provide a module for managing goals and scenarios, including the ability to define, track, and update goals and scenarios.
+Policy Management: SPRAT will have a module for managing policies, including the ability to create, update, and track policies.
+Flesch Readability Index Calculation: SPRAT will have a module for calculating the Flesch Readability Index of policies, providing an objective measure of policy readability.
+Scenario Specification and Management: SPRAT will provide a module for specifying and managing scenarios, including the ability to create, update, and track scenarios.
+Requirements Specification: SPRAT will have a module for specifying requirements, including the ability to create, update, and track requirements.
+Legal Compliance: SPRAT will provide a module for managing legal compliance, including the ability to track and update legal requirements.
+Requirements-level Access Control Analysis Framework (RACAF): SPRAT will have a module for conducting requirements-level access control analysis, including the ability to evaluate and enforce access control policies.
 Non-Functional Requirements/Constraints:
 
-Security and Privacy: The system shall maintain the security and privacy of all sensitive data, including user information, goals, scenarios, and requirements.
-Accuracy: The system shall provide accurate results and information to users.
-Performance: The system shall perform efficiently and effectively, with minimal downtime or errors.
-Usability: The system shall be easy to use and navigate, with an intuitive interface and clear documentation.
-Scalability: The system shall be scalable to accommodate future updates and enhancements.
+Performance: SPRAT will be designed to handle a large number of users and process large amounts of data without significant performance degradation.
+Security: SPRAT will be designed to ensure the security of sensitive data, including privacy policies, goals, scenarios, requirements, and access control policies.
+Usability: SPRAT will be designed to be easy to use and intuitive, with a user-friendly interface that allows users to easily access and manipulate the data.
+Scalability: SPRAT will be designed to scale horizontally and vertically as the number of users and data grows.
+Compatibility: SPRAT will be designed to be compatible with various operating systems, browsers, and devices.
+Accessibility: SPRAT will be designed to be accessible to users with disabilities and will comply with relevant accessibility standards.
+Internationalization: SPRAT will be designed to support multiple languages and regions.
+Error Handling: SPRAT will be designed to handle errors and exceptions gracefully and provide informative error messages to users.
+Data Backup and Recovery: SPRAT will have a data backup and recovery mechanism to ensure that data is not lost in case of a system failure or data corruption.
+Auditing: SPRAT will have an auditing mechanism to track and record user activities, including logins, logouts, and changes made to data.
+Integration: SPRAT will be designed to integrate with other tools and systems, such as policy management systems, requirement management systems, and access control systems.
+Customization: SPRAT will be customizable to meet the specific needs of different organizations and users.
+Documentation: SPRAT will come with comprehensive documentation that includes user manuals, technical guides, and system administration guides.
+Support: SPRAT will have a support mechanism, including user forums, FAQs, and technical support staff, to assist users with any issues or questions they may have.
+Training: SPRAT will have a training mechanism, including online tutorials, webinars, and classroom training, to help users get started with the tool and learn its features and functionality.

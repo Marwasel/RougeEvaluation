@@ -1,59 +1,28 @@
-Purpose: This document outlines the requirements for the SPRAT software tool, which is designed to assist analysts in the scenario and goal mining, reconciliation, and management processes.
+Summary of "2004 - sprat.pdf"
+This document describes the requirements for the Security and Privacy Requirements Analysis Tool (SPRAT), a software tool designed to assist analysts in the process of scenario and goal mining, reconciliation, and management.
 
 Key Features:
 
-User Access Module: Manages access levels and permissions for different user groups (administrator, project manager, analyst, guest).
-Goal Specification and Management Module: Supports goal management, including adding, deleting, updating, and classifying goals.
-Policy Management Module: Supports policy management, including adding, deleting, and updating policies.
-Flesch Readability Index Module: Calculates the Flesch Readability Index of policy documents.
-Scenario Specification and Management Module: Supports scenario management, including adding, deleting, and updating scenarios.
-Requirements Specification Module: Supports the requirements for a system.
-Legal Compliance: Ensures compliance with relevant legal requirements.
-Requirements-level Access Control Analysis Framework (RACAF) module: Defines the functional requirements that support RACAF.
-Target Users:
+User Access Module (UAM):
+Manages access levels and permissions for different user types (administrator, project manager, analyst, guest).
+Provides secure storage and access to user data.
+Goal Specification and Management Module (GSM):
+Allows analysts to add, edit, delete, and search for goals.
+Provides templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
+Enables classification and tagging of goals for easier organization and retrieval.
+Maintains traceability links between goals and policies.
+Calculates and displays the number of occurrences of a goal in a policy and across multiple policies.
+Provides a context view of each goal, showing the actual statement from the policy where it originated.
+Allows analysts to create and update keyword definitions for goals.
+Supports conflict identification and resolution between requirements and privacy policies.
+Analysis Document Management Module (ADM):
+Allows project managers to add, edit, and delete analysis documents.
+Assigns domains to documents for easier organization.
+Provides a way to display document names and links to the actual document text.
+Flesch Readability Module (FRE):
+Calculates the Flesch Readability Index for textual documents, such as policy documents.
+Additional Notes:
 
-Requirements engineers
-Chief Privacy Officers (CPOs)
-Policy analysts
-Auditors
-Priority Levels:
-
-High: Critical requirements that must be satisfied for the system to function properly.
-Medium: Important requirements that are desirable but not critical.
-Low: Desirable but not necessary requirements that can be postponed for implementation in later versions.
-Key Requirements:
-
-FR-UA 1: The system shall support an administrator level with specific privileges.
-FR-UA 2: The system shall support a project manager level with specific privileges.
-FR-UA 3: The system shall support an analyst level with specific privileges.
-FR-UA 4: The system shall support a guest level with specific privileges.
-FR-GSM 1: The system shall allow analysts to add a new goal.
-FR-GSM 2: The system shall provide templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
-FR-GSM 3: The system shall allow analysts to classify goals.
-FR-GSM 4: The system shall allow multiple subject classifications for each goal.
-FR-GSM 5: The system shall provide the ability to dynamically add a new classification type of goals to the tool.
-FR-GSM 6: The system shall allow the analysts to request a new classification type of goals and also allow the project manager to create that classification type.
-FR-GSM 7: The system shall provide the ability to update an existing goal.
-FR-GSM 8: The system shall provide the ability to delete a goal.
-FR-GSM 9: The system shall provide the ability to automatically propagate associated policy information upon deletion or replacement of a goal.
-FR-GSM 10: The system shall maintain traceability links between a goal and the policy from which the goal was derived.
-FR-GSM 11: The system shall provide the ability to display the number of occurrences of a goal in a policy, in multiple policies, and within a domain.
-FR-GSM 12: The system shall provide the ability to display the number of different goals that occur in a policy.
-FR-GSM 13: The system shall display the context of a goal.
-FR-GSM 14: The system shall allow analysts to create and update goal keyword definitions and allow guests to view keyword definitions.
-FR-GSM 15: The system shall provide the ability to lock and unlock the keyword definition by either the project manager or the first person who created the definition in the repository.
-FR-GSM 16: The system shall allow analysts and guests to search goals according to analyst chosen attributes.
-FR-GSM 17: The system shall allow analysts to view elements of a goal returned by a query.
-FR-GSM 18: The system shall provide a template to express goals in BNF grammar.
-FR-GSM 19: The system shall support conflict identification and resolution.
-FR-GSM 20: The system shall allow analysts to view scenarios associated with individual scenarios.
-FR-GSM 21: The system shall provide a P3P dedicated section in the tool.
-FR-GSM 22: The system shall provide an EPAL dedicated section in the tool.
-FR-ADM 1: The system shall allow project managers to add analysis documents and assign a domain to each document.
-FR-ADM 2: The system shall allow project managers to edit the domain for the documents.
-FR-ADM 3: The system shall allow project managers to delete the domain for the documents.
-FR-ADM 4: The system shall allow project managers to create document types.
-FR-ADM 5: The system shall provide the ability to display document names and links to the actual document text within a specific domain in an alphabetical order.
-FR-ADM 6: The system shall allow project managers to create a new domain and assign existing documents to this domain.
-FR-ADM 7: The system shall support automatic multi-user analysis results comparison upon the project manager’s request.
-FR-FRE 1: The system shall provide a way to calculate the Flesch Readability for textual documents.
+The document outlines the functional, non-functional, security, and privacy requirements for SPRAT.
+The document also includes a glossary of terms and a list of references.
+The document is dated July 12, 2004.

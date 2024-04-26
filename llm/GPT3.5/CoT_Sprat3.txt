@@ -1,24 +1,20 @@
-Product Description:
-The Security and Privacy Requirements Analysis Tool (SPRAT) is a software tool developed to address the misalignment and conflicts between security and privacy policies, requirements, and functionality in web-based systems. It aims to identify high-level goals, capture scenarios, and assist analysts in the mining, reconciliation, and management processes. SPRAT maintains a repository of goals and scenarios derived from policies and other documents, ensuring traceability and supporting ongoing analysis.
+Summary:
 
-Functional Requirements:
+The Security and Privacy Requirements Analysis Tool (SPRAT) is a software tool designed to address the misalignment and conflicts between security and privacy policies, requirements, and functionality in web-based systems. It aims to prevent customer mistrust caused by conflicting privacy statements by identifying and aligning high-level goals with operational descriptions of the system. SPRAT facilitates goal and scenario mining, reconciliation, and management processes, providing a repository for maintaining goals and scenarios derived from policies and other documents.
 
-Module Breakdown: The tool should provide a breakdown of different modules involved in the requirements analysis process.
-Module Requirements: The tool should specify the requirements for each module, including User Access Module (UAM), Goal Specification and Management Module (GSM), Analysis Document Management Module (PM), Flesch Readability Module (FRE), Scenario Specification and Management Module (SSM), Requirements Specification Module (RS), Legal Compliance Module (LC), Requirements-Level Access Control Analysis Framework Module (RACAF), and P3P Module.
-System Requirements: The tool should outline the system requirements needed for its installation and operation.
-Requirements Traceability Matrix: The tool should provide a matrix to trace goals and scenarios back to the policies from which they are derived.
-Document Revision History: The tool should maintain a revision history of the document to track changes made over time.
-Appendix: The tool should include an appendix containing a glossary, acknowledgments, and references for further reading.
-Non-Functional Requirements/Constraints:
+The tool consists of six main modules: User Access Module, Goal Specification and Management Module, Policy Management Module, Flesch Readability Index Module, Scenario Specification and Management Module, and Requirements Specification Module. These modules serve various functions, including managing user access levels and permissions, supporting goal and scenario management, policy management, calculating readability indices, and specifying system requirements.
 
-Accuracy: The tool should accurately capture and represent high-level goals and scenarios derived from policies and documents. It should correctly classify and categorize goals as policy goals or scenario goals.
-Performance: The tool should provide efficient response times for user interactions and support concurrent multi-user analysis without significant performance degradation.
-Security: The tool should ensure the security of all sensitive data, implementing robust measures to protect privacy policies, user profiles, and access control policies from unauthorized access or disclosure.
-Usability: The tool should have a user-friendly interface for easy navigation and interaction. It should support customization and flexible user-defined conditions to cater to specific needs.
-Maintainability: The tool should be designed in a modular and extensible manner, allowing for easy maintenance, bug fixes, and future updates or enhancements.
-Scalability: The tool should be scalable to accommodate a growing number of policies, goals, scenarios, and users without performance degradation.
-Compatibility: The tool should be compatible with common operating systems, web browsers, and database systems for accessibility and seamless integration.
-Documentation: The tool should provide comprehensive and up-to-date documentation that is easily accessible and searchable.
-Legal Compliance: The tool should comply with relevant legal regulations and privacy standards. It should provide functionalities to facilitate legal compliance assessments and audits.
-Accessibility: The tool should be accessible to users with diverse abilities, supporting accessibility standards and assistive technologies.
-Training and Support: The tool should provide training materials, responsive technical support, and channels for user feedback and feature requests.
+In addition to the functional requirements, SPRAT has non-functional requirements and constraints that govern its design and implementation. These include:
+
+Accuracy: The tool must provide accurate results and ensure the correct management and analysis of goals, scenarios, policies, and requirements.
+Performance: The tool should perform efficiently, with fast response times and minimal delays in handling user interactions and data processing.
+Usability: The tool should be user-friendly, allowing analysts and stakeholders to navigate and utilize its functionalities without extensive training.
+Flexibility: The tool should offer customization options, enabling users to define conditions and criteria for effective goal and scenario mining and management.
+Multi-user Analysis Support: The tool should support concurrent usage by multiple analysts and facilitate collaboration and comparison of goal classification results.
+Security: The tool must ensure the security of sensitive data, implementing measures to protect against unauthorized access and data breaches.
+Readability Analysis: SPRAT includes a module for calculating the Flesch Readability Index, enabling the assessment of policy document readability.
+Requirements Traceability: The tool provides a traceability matrix to visualize dependencies and relationships between requirements.
+The document also mentions constraints, such as the current implementation focus on the database, high and medium priority requirements, and the development of the Requirements-level Access Control Analysis Framework (RACAF).
+
+Overall, SPRAT aims to enhance the alignment, completeness, and readability of security and privacy requirements in web-based systems, providing a comprehensive tool for analysts, policy managers, and auditors.
+

@@ -1,22 +1,19 @@
 Title: Security and Privacy Requirements Analysis Tool (SPRAT) - Software Requirements Specification
 
 Summary:
-The document titled "Security and Privacy Requirements Analysis Tool (SPRAT) - Software Requirements Specification" provides an overview of SPRAT, a tool designed to address the misalignment and conflicts between security and privacy policies in web-based systems. The document, dated July 2004, outlines the purpose, modules, and requirements of SPRAT.
+The document titled "Security and Privacy Requirements Analysis Tool (SPRAT) - Software Requirements Specification" provides an overview of SPRAT, a tool designed to align privacy and security policies in web-based systems. The document, dated July 12, 2004, outlines the purpose, modules, and requirements of SPRAT.
 
 Introduction:
-The document highlights the importance of aligning security and privacy policies with system requirements and functionality. It emphasizes the need for high-level goals and scenarios to ensure completeness, readability, and conflict detection. The tool aims to assist analysts in mining, reconciling, and managing goals and scenarios derived from policies and other documents.
+The introduction highlights the importance of aligning requirements, policies, and functionality in web-based systems to avoid conflicts and customer mistrust. It emphasizes the need for high-level goals and scenarios to ensure completeness, readability, and conflict detection in requirements engineering.
 
 Module Breakdown:
-SPRAT consists of six main modules:
+SPRAT consists of six main modules: User Access, Goal Specification and Management, Policy Management, Flesch Readability Index, Scenario Specification and Management, and Requirements Specification. Additional modules include Legal Compliance and Requirements-level Access Control Analysis Framework (RACAF).
 
-User Access Module: Manages access levels and permissions for different user classes.
-Goal Specification and Management Module: Supports goal management within the tool.
-Policy Management Module: Supports policy management within the tool.
-Flesch Readability Index Module: Calculates the readability index of policy documents.
-Scenario Specification and Management Module: Supports scenario management within the tool.
-Requirements Specification Module: Supports system requirements.
 Module Requirements:
-The document outlines the services provided by each module and their functional requirements. It categorizes requirements into high, medium, and low priority levels based on stakeholder discussions. The User Access Module is detailed, specifying access levels and corresponding permissions for administrators, project managers, analysts, and guests.
+This section describes the services provided by each module. It starts with the User Access Module, which defines different access levels (Administrator, Project Manager, Analysts, and Guest) and their respective permissions and restrictions. The document then outlines functional requirements for each access level, such as creating user groups, managing privacy policies, assigning analysts to projects, and updating personal profiles.
 
-Summary:
-The document introduces SPRAT, a tool designed to address the misalignment between security and privacy policies in web-based systems. It highlights the significance of high-level goals and scenarios in requirements analysis and emphasizes the need for a tool to facilitate goal and scenario mining, reconciliation, and management. The document provides an overview of the tool's modules, their functionalities, and the associated requirements. It concludes by mentioning the priority levels assigned to requirements and the focus on implementing the database and high/medium priority requirements for SPRAT, including the Requirements-level Access Control Analysis Framework (RACAF).
+System Requirements:
+The document includes a System Requirements section that specifies the properties and constraints under which the SPRAT system must operate.
+
+Requirements Traceability Matrix and Document Revision History:
+The Requirements Traceability Matrix visually displays the dependencies between requirements, while the Document Revision History outlines the version, authors, dates, and changes made to the document.

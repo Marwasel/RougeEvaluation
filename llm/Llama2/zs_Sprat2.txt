@@ -1,0 +1,67 @@
+Description:
+The document describes the requirements for a tool called SPRAT (Security and Privacy Requirements Analysis Tool) that helps organizations analyze and manage privacy policies and goals. The tool is designed to assist analysts in the scenario and goal mining, reconciliation and management processes.
+
+Functional Requirements:
+
+The tool shall support an administrator level, project manager level, analyst level, and guest level.
+The tool shall allow users to add, delete, and update goals, scenarios, P3P statements, EPAL rules, and access control policies.
+The tool shall provide templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
+The tool shall allow analysts to classify goals, view the number of occurrences of a goal in a policy, and display the context of a goal.
+The tool shall provide a way to display the number of different goals that occur in a policy.
+The tool shall allow analysts to search goals according to analyst chosen attributes.
+The tool shall allow analysts to view elements of a goal returned by a query.
+The tool shall provide a P3P dedicated section in the tool.
+The tool shall allow analysts to view scenarios associated with individual scenarios.
+The tool shall allow project managers to create a new domain and assign existing documents to that domain.
+The tool shall allow analysts to view the elements of a scenario in the project assigned to this analyst.
+The tool shall generate a list of all scenarios that share the same attribute or sets of attributes.
+The tool shall allow analysts to reuse other scenarios when specifying a scenario.
+The tool shall allow analysts to view the elements of any scenario in the project.
+The tool shall provide a way to extract goals data-usage information from a P3P privacy policy according to the P3P standard.
+The tool shall provide a way to extract goals data-usage information according to the user’s privacy preferences in accordance with the P3P standard.
+The tool shall provide a way to capture goals information mined from the P3P policy into a database corresponding to a P3P privacy policy.
+The tool shall provide a way to capture goals information mined from the user’s privacy preferences into a database corresponding to the user’s privacy preferences.
+The tool shall provide a way to evaluate the information extracted from the P3P privacy policy against the information extracted from the user’s privacy preferences.
+Non-Functional Requirements:
+
+The tool shall allow secure storage of passwords in the database.
+The tool shall allow users to securely log onto the system.
+The tool shall provide the ability to dynamically add a new classification type of goals to the tool.
+The tool shall provide the ability to update an existing goal.
+The tool shall provide the ability to delete a goal.
+The tool shall provide the ability to automatically propagate associated policy information upon deletion or replacement of a goal.
+The tool shall maintain traceability links between a goal and the policy from which the goal was derived.
+The tool shall provide the ability to lock and unlock the keyword definition by either the project manager or the first person who created the definition in the repository.
+The tool shall allow analysts to view elements of a goal returned by a query.
+The tool shall provide a template to express goals in BNF grammar.
+The tool shall support automatic multi-user analysis results comparison upon the project manager’s request.
+The tool shall allow analysts to view goals associated with individual scenarios.
+The tool shall allow project managers to create a new domain and assign existing documents to that domain.
+The tool shall allow analysts to view the elements of a scenario in the project assigned to this analyst.
+The tool shall generate a list of all scenarios that share the same attribute or sets of attributes.
+The tool shall allow analysts to reuse other scenarios when specifying a scenario.
+The tool shall allow analysts to view the elements of any scenario in the project.
+The tool shall provide a way to extract goals data-usage information from a P3P privacy policy according to the P3P standard.
+The tool shall provide a way to extract goals data-usage information according to the user’s privacy preferences in accordance with the P3P standard.
+The tool shall provide a way to capture goals information mined from the P3P policy into a database corresponding to a P3P privacy policy.
+The tool shall provide a way to capture goals information mined from the user’s privacy preferences into a database corresponding to the user’s privacy preferences.
+The tool shall provide a way to evaluate the information extracted from the P3P privacy policy against the information extracted from the user’s privacy preferences.
+Constraints:
+
+The tool shall provide a way to display the number of occurrences of a goal in a policy, in multiple policies, and within a domain.
+The tool shall provide the ability to display the context of a goal.
+The tool shall provide a way to lock and unlock the keyword definition by either the project manager or the first person who created the definition in the repository.
+The tool shall allow analysts to view elements of a goal returned by a query.
+The tool shall provide a template to express goals in BNF grammar.
+The tool shall support automatic multi-user analysis results comparison upon the project manager’s request.
+The tool shall allow analysts to view goals associated with individual scenarios.
+The tool shall allow project managers to create a new domain and assign existing documents to that domain.
+The tool shall allow analysts to view the elements of a scenario in the project assigned to this analyst.
+The tool shall generate a list of all scenarios that share the same attribute or sets of attributes.
+The tool shall allow analysts to reuse other scenarios when specifying a scenario.
+The tool shall allow analysts to view the elements of any scenario in the project.
+The tool shall provide a way to extract goals data-usage information from a P3P privacy policy according to the P3P standard.
+The tool shall provide a way to extract goals data-usage information according to the user’s privacy preferences in accordance with the P3P standard.
+The tool shall provide a way to capture goals information mined from the P3P policy into a database corresponding to a P3P privacy policy.
+The tool shall provide a way to capture goals information mined from the user’s privacy preferences into a database corresponding to the user’s privacy preferences.
+The tool shall provide a way to evaluate the information extracted from the P3P privacy policy against the information extracted from the user’s privacy preferences.

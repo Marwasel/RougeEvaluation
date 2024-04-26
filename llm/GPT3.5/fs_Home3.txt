@@ -1,0 +1,16 @@
+Summary:
+The document outlines the requirements for the development of a "Smart House" called DigitalHome (DH) by the DigitalHomeOwner Division of HomeOwner Inc. It describes the purpose and scope of the system, as well as the roles and schedule of the team involved in the project.
+
+The DigitalHome system is designed to be a home management system that integrates security, environmental and energy management, entertainment, and communications. It consists of household devices, sensors, controllers, communication links, and a computer system for managing the components.
+
+The document emphasizes that the current version of DigitalHome is a limited prototype, intended for business decision-making regarding future commercial development. It references a supplementary document, the Digital Home Use Case Model, which provides additional detail on the requirements.
+
+The users of the DigitalHome system are described, including general users who can monitor and control their home environment through a web interface, and a designated Master user who has additional configuration rights. There is also a DigitalHome Technician responsible for system setup and maintenance.
+
+Development constraints are outlined, including the completion timeframe, team composition, and the use of established hardware and software technologies. Cost minimization and testing in a simulated environment are also mentioned.
+
+The operational environment section highlights the need for an Internet Service Provider (ISP), a home web server, a DH gateway device for communication, and various sensors and controllers for temperature, humidity, security, and power management.
+
+The document concludes with a section on functional requirements, which is truncated in the provided content.
+
+Overall, the DigitalHome Requirements Specification document provides an overview of the project, its goals, user descriptions, development constraints, and operational environment, serving as a foundation for the development of the Smart House system.

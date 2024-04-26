@@ -1,0 +1,21 @@
+This document titled "Security and Privacy Requirements Analysis Tool (SPRAT) Software Requirements Specification" provides information about the SPRAT tool, its modules, and the requirements it must fulfill. Here's a summary of the document focusing on three sections:
+
+Introduction:
+The introduction highlights the importance of aligning privacy and security policies with system requirements to avoid conflicts and customer mistrust. It emphasizes the need for high-level goals and scenarios in the requirements analysis process. The document aims to develop a tool that assists analysts in mining, reconciling, and managing goals and scenarios derived from policies and other relevant documents.
+
+Module Requirements:
+This section outlines the various modules of SPRAT and their specific requirements. The modules include:
+
+User Access Module (UAM): Manages access levels and permissions for different user classes.
+Goal Specification and Management Module: Supports the management of goals within the tool.
+Policy Management Module: Supports the management of policies within the tool.
+Flesch Readability Index Module: Calculates the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module: Supports the management of scenarios within the tool.
+Requirements Specification Module: Supports the specification of system requirements.
+Legal Compliance Module: Addresses legal compliance requirements.
+Requirements-level Access Control Analysis Framework (RACAF) Module: Defines functional requirements for RACAF.
+For each module, functional requirements are provided, describing the purpose, description, origin, and priority of each requirement. The priorities are categorized as high, medium, or low, based on discussions with stakeholders.
+
+Non-Functional Requirements and Constraints:
+The document specifies non-functional requirements that the tool must satisfy, such as accuracy and performance. Additionally, it mentions the SPRAT's security and privacy requirements, which ensure the security of sensitive data. Constraints or limitations regarding the system's operation may be included in this section, although they are not explicitly mentioned in the provided content.
+Overall, the document describes the SPRAT tool, its modules, and the functional and non-functional requirements it must adhere to. It aims to align privacy and security policies with system requirements and provide a comprehensive tool for managing goals, scenarios, and policies.

@@ -1,0 +1,105 @@
+Functional Requirements:
+
+The system shall support an administrator level.
+The system shall support a project manager level.
+The system shall support an analyst level.
+The system shall support a guest level.
+The system shall allow analysts to add a new goal.
+The system shall provide templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
+The system shall allow analysts to classify goals.
+The system shall allow multiple subject classifications for each goal.
+The system shall provide the ability to dynamically add a new classification type of goals to the tool.
+The system shall allow analysts to request a new classification type of goals and also allow the project manager to create that classification type.
+The system shall provide the ability to update an existing goal.
+The system shall provide the ability to delete a goal.
+The system shall provide the ability to automatically propagate associated policy information upon deletion or replacement of a goal.
+The system shall maintain traceability links between a goal and the policy from which the goal was derived.
+The system shall provide the ability to display the number of occurrences of a goal in a policy, in multiple policies, and within a domain.
+The system shall provide the ability to display the number of different goals that occur in a policy.
+The system shall display the context of a goal.
+The system shall allow analysts to create and update goal keyword definitions and allow guests to view keyword definitions.
+The system shall provide a template to express goals in BNF grammar.
+The system shall allow analysts to view elements of a goal returned by a query.
+The system shall provide a P3P dedicated section in the tool.
+The system shall allow analysts to view scenarios associated with individual scenarios.
+The system shall provide a way to display document names and links to the actual document text within a specific domain in an alphabetical order.
+The system shall allow project managers to create a new domain and assign existing documents to this domain.
+The system shall support automatic multi-user analysis results comparison upon the project manager’s request.
+The system shall allow analysts to view the elements of a scenario in the project assigned to this analyst.
+The system shall allow analysts to generate list of all scenarios that share the same attribute or sets of attributes.
+The system shall allow analysts to view the elements of any scenario in the project.
+The system shall provide a way to calculate the Flesch Readability Score (FRES) and Flesch-Kincaid Grade Level (FGL) for textual documents.
+The system shall allow analysts to edit/modify a scenario within a project.
+The system shall allow analysts to delete a scenario from the system.
+The system shall allow analysts to reuse other scenarios.
+The system shall allow analysts to view goals associated with individual scenarios.
+The system shall allow analysts to specify requirements.
+The system shall allow analysts to add a requirement.
+The system shall allow analysts to delete a requirement from the system.
+The system shall allow analysts to edit a requirement.
+The system shall provide a template for specifying requirements.
+The system shall allow analysts to add new objects (names, types, and other attributes).
+The system shall support association of privacy preferences with objects.
+The system shall allow analysts to specify hierarchies to organize data and its types.
+The system shall allow analysts to view data hierarchies graphically.
+The system shall allow analysts to specify access control elements.
+The system shall allow analysts to view scenario elements on the left hand of the screen and edit access control rules on the right hand of the screen.
+The system shall support a hierarchical representation of organizational structures.
+The system shall allow analysts to specify organization boundaries via the use of roles.
+The system shall allow analysts to specify relationships among actors.
+The system shall allow analysts to specify roles.
+The system shall allow project managers to delegate their responsibilities to analysts for a specific time frame.
+The system shall allow analysts to graphically view the allowable flows for specific types within an organization and across multiple organizations given a set of access control policies.
+The system shall allow analysts to invoke the ponder policy editor.
+The system shall allow analysts to partially translate Ponder policy into Alloy specifications for security verification.
+The system shall provide a way to extract goals data-usage information from a P3P privacy policy according to the P3P standard.
+The system shall provide a way to extract goals data-usage information according to the user’s privacy preferences in accordance with the P3P standard.
+The system shall provide a way to capture goals information mined from the P3P policy into a database corresponding to a P3P privacy policy.
+The system shall provide a way to capture goals information mined from the user’s privacy preferences into a database corresponding to the user’s privacy preferences.
+The system shall provide an unambiguous way to evaluate the information extracted from the privacy policy against the information extracted from the user’s privacy preferences.
+Non-Functional Requirements:
+
+The system shall allow secure storage of passwords in the database.
+The system shall allow users to securely log onto the system.
+The system shall allow users to have different access levels to the projects.
+The system shall provide templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
+The system shall allow analysts to classify goals.
+The system shall allow multiple subject classifications for each goal.
+The system shall provide the ability to dynamically add a new classification type of goals to the tool.
+The system shall allow analysts to request a new classification type of goals and also allow the project manager to create that classification type.
+The system shall provide the ability to update an existing goal.
+The system shall provide the ability to delete a goal.
+The system shall provide the ability to automatically propagate associated policy information upon deletion or replacement of a goal.
+The system shall maintain traceability links between a goal and the policy from which the goal was derived.
+The system shall provide the ability to display the number of occurrences of a goal in a policy, in multiple policies, and within a domain.
+The system shall provide the ability to display the number of different goals that occur in a policy.
+The system shall display the context of a goal.
+The system shall allow analysts to create and update goal keyword definitions and allow guests to view keyword definitions.
+The system shall provide a template to express goals in BNF grammar.
+The system shall allow analysts to view elements of a goal returned by a query.
+The system shall provide a P3P dedicated section in the tool.
+The system shall allow analysts to view scenarios associated with individual scenarios.
+The system shall provide a way to display document names and links to the actual document text within a specific domain in an alphabetical order.
+The system shall allow project managers to create a new domain and assign existing documents to this domain.
+The system shall support automatic multi-user analysis results comparison upon the project manager’s request.
+The system shall allow analysts to view the elements of a scenario in the project assigned to this analyst.
+The system shall allow analysts to generate list of all scenarios that share the same attribute or sets of attributes.
+The system shall allow analysts to view the elements of any scenario in the project.
+The system shall provide a way to calculate the Flesch Readability Score (FRES) and Flesch-Kincaid Grade Level (FGL) for textual documents.
+The system shall allow analysts to edit/modify a scenario within a project.
+The system shall allow analysts to delete a scenario from the system.
+The system shall allow analysts to reuse other scenarios.
+The system shall allow analysts to view goals associated with individual scenarios.
+The system shall allow analysts to specify requirements.
+The system shall allow analysts to add a requirement.
+The system shall allow analysts to delete a requirement from the system.
+The system shall allow analysts to edit a requirement.
+The system shall provide a template for specifying requirements.
+The system shall allow analysts to add new objects (names, types, and other attributes).
+The system shall support association of privacy preferences with objects.
+The system shall allow analysts to specify hierarchies to organize data and its types.
+The system shall allow analysts to view data hierarchies graphically.
+The system shall allow analysts to specify access control elements.
+The system shall allow analysts to view scenario elements on the left hand of the screen and edit access control rules on the right hand of the screen.
+The system shall support a hierarchical representation of organizational structures.
+The system shall allow analysts to specify organization

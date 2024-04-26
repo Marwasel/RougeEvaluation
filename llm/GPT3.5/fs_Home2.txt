@@ -1,38 +1,17 @@
-Title: DigitalHome Software Requirements Specification
+Summary:
 
-Introduction:
+The document titled "DigitalHome Requirements Specification" outlines the requirements for the development of a "Smart House" system called DigitalHome (DH). The system aims to provide home residents with easy management of their daily lives by integrating security, environmental and energy management, entertainment, and communications. The components of the Smart House include household devices, sensors, controllers, communication links, and a computer system.
 
-Specifies the requirements for the development of a "Smart House" called DigitalHome (DH) by HomeOwner Inc.
-Aims to provide a home management system integrating security, environmental and energy management, entertainment, and communications.
-Team Project Information:
+The document specifies that the DigitalHome Software Requirements Specification (SRS) is based on the DigitalHome Customer Need Statement and serves as a list of the system's principal features. This version of DigitalHome is a limited prototype intended for HomeOwner Inc. to make business decisions regarding future commercial development. A supplementary document, the Digital Home Use Case Model, provides additional detail and information on the requirements.
 
-Team Leader: Disha Chandra
-System Analyst and Requirements Manager: Michel Jackson
-System Architect and Design Manager: Yao Wang
-Planning Manager: Georgia Magee
-Quality Manager: Massood Zewail
-Construction Engineer: All team members
-Overall Description:
+The document includes information about the team responsible for the project, their roles, and the project schedule. The development timeline spans from September 2010 to August 2011, covering various phases such as need assessment, project planning, requirements, architecture, construction cycles, system testing, acceptance testing, and postmortem analysis.
 
-Digital Home is a system for managing home devices through a web interface.
-Components include household devices, sensors and controllers, communication links, and a computer system.
-It is a limited prototype version for making business decisions about future commercial development.
-The scope includes managing temperature, humidity, security, and power to appliances and lighting units.
-The prototype will be situated in a simulated environment with no physical home.
-User Descriptions:
+The overall description section provides a product description and scope, stating that the Digital Home system allows users to manage home environment devices through a web interface. The system is based on the Digital Home High Level Requirements Definition and will focus on managing temperature, humidity, security, and power to small appliances and lighting units. The prototype will be situated in a simulated environment without an actual physical home.
 
-General User: Monitors and controls the home environment, familiar with web interfaces.
-Master User: Can change system configuration and has the same rights as the DH Technician.
-DH Technician: Responsible for setting up and maintaining the DH system, trained in system functionality and operation.
-Development Constraints:
+The document further describes the users of the DigitalHome system, including general users and a designated Master user who can change system configurations. It also introduces the role of a DigitalHome Technician responsible for system setup and maintenance.
 
-Prototype version must be completed within twelve months.
-Development team consists of five engineers.
-Widely used hardware and software technology and standards should be employed.
-Minimization of costs for DH elements is important.
-Testing will be done in a simulated environment.
-Operational Environment:
+The document outlines development constraints, including the completion timeline, team size, and the use of specified development processes and technology standards. It emphasizes minimizing costs and testing the system in a simulated but realistic environment.
 
-Home system requires an Internet Service Provider (ISP).
-A DH System should have an individual home web server for interaction, control, storage, and user account management.
-A home DH gateway device is needed for communication between the web server and devices.
+Lastly, the document discusses the operational environment, such as the requirement for an Internet Service Provider (ISP), the need for a home web server, a home gateway device for communication, and various sensors and controllers for temperature, humidity, security, and power monitoring.
+
+Overall, the document serves as a specification for the development of the DigitalHome system, providing an overview of its features, user descriptions, development constraints, and operational environment requirements.

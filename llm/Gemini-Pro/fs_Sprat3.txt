@@ -1,41 +1,39 @@
-Summary of Functional Requirements for SPRAT
-This document outlines the functional requirements for the Security and Privacy Requirements Analysis Tool (SPRAT), a system designed to assist analysts in the scenario and goal mining, reconciliation, and management processes.
+Summary of "2004 - sprat.pdf"
+This document outlines the requirements for a software tool called SPRAT, which stands for Security and Privacy Requirements Analysis Tool. SPRAT is designed to assist analysts in the process of identifying, managing, and analyzing goals and scenarios related to privacy policies. The document details the various modules that will comprise SPRAT, the functionalities each module will provide, and the requirements that must be met for each functionality.
 
-User Access Module (UAM)
-FR-UA 1: The system shall support administrator, project manager, analyst, and guest access levels with specific permissions and restrictions for each.
-FR-UA 2: The system shall allow project managers to insert, delete, and manage privacy policies, domains, user groups, and project assignments.
-FR-UA 3: The system shall allow analysts to add, delete, and update goals, scenarios, requirements, and access control policies.
-FR-UA 4: The system shall allow guests to view information with restrictions set by the project manager.
-Goal Specification and Management Module (GSM)
-FR-GSM 1: The system shall allow analysts to add new goals with detailed information including ID, description, taxonomy, subject classification, actor, policy source, granularity, observability, occurrences, context, and relevant legislation.
-FR-GSM 2: The system shall provide templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
-FR-GSM 3: The system shall allow analysts to classify goals based on policy/scenario, observability, protection/vulnerability, and subject classification.
-FR-GSM 4: The system shall allow analysts to choose multiple subject classifications for each goal.
-FR-GSM 5: The system shall allow the project manager to add new goal classification types.
-FR-GSM 6: The system shall allow analysts to request new goal classification types and the project manager to create them.
-FR-GSM 7: The system shall allow analysts to update existing goals.
-FR-GSM 8: The system shall allow analysts to delete existing goals.
-FR-GSM 9: The system shall automatically propagate associated policy information upon deletion or replacement of a goal.
-FR-GSM 10: The system shall maintain traceability links between goals and their source policies.
-FR-GSM 11: The system shall display the number of occurrences of a goal in a policy, multiple policies, and within a domain.
-FR-GSM 12: The system shall display the number of different goals that occur in a policy.
-FR-GSM 13: The system shall display the context of a goal.
-FR-GSM 14: The system shall allow analysts to create and update goal keyword definitions and allow guests to view them.
-FR-GSM 15: The system shall allow the project manager or the definition creator to lock and unlock keyword definitions.
-FR-GSM 16: The system shall allow analysts and guests to search goals according to analyst-chosen attributes.
-FR-GSM 17: The system shall allow analysts to view elements of a goal returned by a query.
-FR-GSM 18: The system shall provide a template to express goals in BNF grammar.
-FR-GSM 19: The system shall support conflict identification and resolution between requirements and privacy policies.
-FR-GSM 20: The system shall allow analysts to view scenarios associated with individual goals.
-FR-GSM 21: The system shall provide a dedicated section for P3P specifications.
-FR-GSM 22: The system shall provide a dedicated section for EPAL specifications.
-Analysis Document Management Module (ADM)
-FR-ADM 1: The system shall allow project managers to add analysis documents and assign domains to them.
-FR-ADM 2: The system shall allow project managers to edit document domains.
-FR-ADM 3: The system shall allow project managers to delete document domains.
-FR-ADM 4: The system shall allow project managers to create document types.
-FR-ADM 5: The system shall allow analysts and guests to view documents in alphabetical order within a specific domain.
-FR-ADM 6: The system shall allow project managers to create new domains and assign existing documents to them.
-FR-ADM 7: The system shall support automatic multi-user analysis results comparison upon project manager request.
-Flesch Readability Module (FRE)
-FR-FRE 1: The system shall provide a way to calculate the Flesch Readability Index for textual documents.
+Key features of SPRAT:
+
+User Access Module (UAM): Manages access levels and permissions for different user classes (administrator, project manager, analyst, guest).
+Goal Specification and Management Module (GSM): Supports goal management, including creation, editing, deletion, classification, and traceability.
+Policy Management Module: Supports policy management within the tool.
+Flesch Readability Index Module: Calculates the Flesch Readability Index of policy documents.
+Scenario Specification and Management Module: Supports scenario management within the tool.
+Requirements Specification Module: Supports requirements for a system.
+Legal Compliance Module: Ensures compliance with legal requirements.
+Requirements-level Access Control Analysis Framework (RACAF) Module: Supports functionalities related to RACAF.
+Requirements are categorized based on priority:
+
+High: Critical requirements that must be satisfied for the system to function properly.
+Medium: Important requirements that are desirable but not critical.
+Low: Desirable but not critical requirements that can be postponed for later implementation.
+The document also outlines non-functional requirements (NFRs) focusing on data security and user authentication.
+
+Additionally, the document includes information on:
+
+Templates for goals, scenarios, P3P statements, EPAL rules, and access control policies.
+Automatic propagation of associated policy information upon deletion or replacement of a goal.
+Traceability links between goals and the policies from which they were derived.
+Displaying the number of occurrences of a goal in a policy, across multiple policies, and within a domain.
+Displaying the number of different goals that occur in a policy.
+Displaying the context of a goal.
+Creating and updating goal keyword definitions.
+Locking and unlocking keyword definitions.
+Searching goals according to analyst-chosen attributes.
+Viewing elements of a goal returned by a query.
+Providing a template to express goals in BNF grammar.
+Supporting conflict identification and resolution.
+Viewing scenarios associated with individual scenarios.
+Providing dedicated sections for P3P and EPAL.
+Document management for analysis documents (e.g., policy documents).
+Automatic multi-user analysis results comparison.
+Calculation of the Flesch Readability Index for policy documents.
